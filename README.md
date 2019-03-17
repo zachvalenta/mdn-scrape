@@ -6,6 +6,6 @@
 
 * I need the data!
 
-# how to run
+# how to run?
 
 * use the Makefile 🙂
