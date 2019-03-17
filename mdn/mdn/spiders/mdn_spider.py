@@ -3,7 +3,7 @@ import scrapy
 from w3lib.html import remove_tags
 
 
-class MDNSPider(scrapy.Spider):
+class MDNSpider(scrapy.Spider):
 
     name = 'mdn_spider'
     selector = '#Keyword_index + .blockIndicator + div code'
