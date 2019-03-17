@@ -2,6 +2,10 @@
 
 help:
 	@echo
+	@echo "🕷 APP"
+	@echo
+	@echo "crawl:   crawl MDN subdomain"
+	@echo
 	@echo "📊 CODE QUALITY"
 	@echo
 	@echo "lint:    lint using flake8"
@@ -12,6 +16,9 @@ help:
 	@echo "pipin:   install dependencies from requirements.txt"
 	@echo "piprs:   remove any installed pkg *not* in requirements.txt"
 	@echo
+
+crawl:
+	cd mdn; scrapy crawl mdn_spider
 
 lint:
 	flake8 src
