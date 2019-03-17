@@ -1,4 +1,4 @@
-from collections import namedtuple
+import json
 import re
 
 from loguru import logger
@@ -8,11 +8,11 @@ from w3lib.html import remove_tags
 
 class MDNSpider(scrapy.Spider):
 
+    all_kw = list()
     mdn_base_url = 'https://developer.mozilla.org/en-US/docs/Web/CSS'
     name = 'mdn_spider'
     selector = '#Keyword_index + .blockIndicator + div a'
     strip_from_link = '/en-US/docs/Web/CSS'
-    css_kw = namedtuple('css_kw', 'link text')
 
     def start_requests(self):
         logger.debug('making request')
@@ -28,5 +28,7 @@ class MDNSpider(scrapy.Spider):
             text = remove_tags(el_dirty)
             link_dirty = re.findall(r'\"(.+?)\"', remove_tags(el_dirty, keep='a'))
             link = self.mdn_base_url + link_dirty[0].replace(self.strip_from_link, '')
-            kw = self.css_kw(link, text)
-            logger.debug('link {} text {}'.format(kw.link, kw.text))
+            self.all_kw.append(dict(link=link, text=text))
+        data = open('data.json', 'w')
+        data.write(json.dumps(self.all_kw, indent=4))
+        data.close()
