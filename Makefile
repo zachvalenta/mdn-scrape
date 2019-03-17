@@ -1,5 +1,3 @@
-.PHONY: test
-
 help:
 	@echo
 	@echo "🕷 APP"
