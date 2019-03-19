@@ -9,10 +9,10 @@ POC that uses:
 
 short answer: `make help` 🙂
 
-long answer
+long answer: ⤵️
 
 * __UI__: all you'll need is a browser, just use `make search` (swap in `xdg-open` if you're running Linux)
-* __backend__: you'll need 
+* __backend__: you'll need...
     - Python 3.4+
-    - dependencies: make a virtual environment, activate it, then run `make pipin`
-    - an `.env` file in the project root with API keys for Algolia, specifically `APP_ID` and `API_KEY_ADMIN`
+    - virtual environment: create it in the project root, activate, and then run `make pipin` to pull down the dependencies
+    - `.env`: create it in the project root, then add Algolia API keys (`APP_ID`, `API_KEY_ADMIN`)
