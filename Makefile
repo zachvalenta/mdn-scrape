@@ -2,9 +2,9 @@ help:
 	@echo
 	@echo "🕸 🕷 🕸  APP"
 	@echo
-	@echo "crawl:   crawl MDN subdomain"
+	@echo "crawl:   crawl MDN domain and store data in Algolia"
 	@echo
-	@echo "search:  search Algolia index of MDN"
+	@echo "search:  use UI for Algolia search"
 	@echo
 	@echo "📊 CODE QUALITY"
 	@echo
