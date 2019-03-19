@@ -1,0 +1,29 @@
+<html>
+    <head>
+    	<title>CSS fuzzy search</title>
+     	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="stylesheet" href="styles.css">
+    </head>
+   	<body>
+        <!-- VUE CONTAINER -->
+	    <div id="root">
+	    	<h2> {{ app }}</h2>
+	    	<div id="search">
+		    	<input v-model="query" placeholder="📙 the docs await..." @input="search">
+	    	</div>
+            <div id="searchResults">
+                <ul>
+                    <li v-for="i in results">
+                        <a :href="i.link"> {{i.text}} </a>
+                    </li>
+                </ul>
+            </div>
+	    </div>
+        <!-- SCRIPTS -->
+        <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+	    <script type="text/javascript" src="https://unpkg.com/vue"></script>
+	    <script type="text/javascript" src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+   	</body>
+</html>

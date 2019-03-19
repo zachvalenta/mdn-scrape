@@ -1,0 +1,35 @@
+#root {
+	font-family:'Helvetica';
+	padding: 24px 15px 24px 15px;
+}
+
+h2 {
+	margin-right: 200px;
+	margin-left: 200px;
+	text-align: center;
+	/*border-style: solid;*/
+}
+
+#search {
+	padding-bottom: 25px;
+	width: 50%;
+  	margin: 0 auto;
+  	text-align: center;
+  	/*border-style: solid;*/
+}
+
+#search input {
+     height: 20px;
+     width: 200px;
+}
+
+#searchResults {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#searchResults ul {
+	list-style: none;
+}
+
