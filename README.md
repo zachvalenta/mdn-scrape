@@ -2,7 +2,7 @@
 
 POC that uses:
 
-* __Scrapy__ 🕸🕷🕸 for a a quick and dirty scrape of an MDN subdomain
+* __Scrapy__ 🕸🕷🕸 for a quick and dirty scrape of an MDN subdomain
 * __Algolia__ 🏎🔍🏎 for typeahead search
 
 # how to run?
