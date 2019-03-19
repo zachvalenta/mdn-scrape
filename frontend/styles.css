@@ -7,7 +7,6 @@ h2 {
 	margin-right: 200px;
 	margin-left: 200px;
 	text-align: center;
-	/*border-style: solid;*/
 }
 
 #search {
@@ -15,7 +14,6 @@ h2 {
 	width: 50%;
   	margin: 0 auto;
   	text-align: center;
-  	/*border-style: solid;*/
 }
 
 #search input {
