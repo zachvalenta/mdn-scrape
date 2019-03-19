@@ -1,8 +1,10 @@
 help:
 	@echo
-	@echo "🕷 APP"
+	@echo "🕸 🕷 🕸  APP"
 	@echo
 	@echo "crawl:   crawl MDN subdomain"
+	@echo
+	@echo "search:  search Algolia index of MDN"
 	@echo
 	@echo "📊 CODE QUALITY"
 	@echo
@@ -17,6 +19,9 @@ help:
 
 crawl:
 	cd mdn; scrapy crawl mdn_spider
+
+search:
+	cd frontend; open index.html
 
 lint:
 	flake8 src
