@@ -24,9 +24,9 @@ class MDNSpider(scrapy.Spider):
         logger.debug('parsing request')
         els = response.css(self.selector)
         for el in els:
-            el_dirty = el.extract()
-            text = remove_tags(el_dirty)
-            link_dirty = re.findall(r'\"(.+?)\"', remove_tags(el_dirty, keep='a'))
+            text_dirty = el.extract()
+            text = remove_tags(text_dirty)
+            link_dirty = re.findall(r'\"(.+?)\"', remove_tags(text_dirty, keep='a'))
             link = self.mdn_base_url + link_dirty[0].replace(self.strip_from_link, '')
             self.all_kw.append(dict(link=link, text=text))
         with open('data.json', 'w') as f:
