@@ -7,9 +7,9 @@ POC that uses:
 
 # how to run?
 
-shorter answer: `make help` 🙂
+short answer: `make help` 🙂
 
-longer answer
+long answer
 
 * __UI__: all you'll need is a browser, just use `make search` (swap in `xdg-open` if you're running Linux)
 * __backend__: you'll need 
