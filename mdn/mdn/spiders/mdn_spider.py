@@ -12,7 +12,7 @@ from ..algolia_client import check_index_not_populated, push_to_index
 def check_data_file_empty():
     with open('data.json') as f:
         data = json.load(f)
-        return True if data else False
+        return True if not data else False
 
 
 class MDNSpider(scrapy.Spider):
