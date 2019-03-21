@@ -1,11 +1,12 @@
 import json
+import os
 import re
 
 from loguru import logger
 import scrapy
 from w3lib.html import remove_tags
 
-from ..algolia_client import check_index_not_populated, push_to_algolia
+from ..algolia_client import check_index_not_populated, push_to_index
 
 
 def check_data_file_empty():
@@ -23,7 +24,11 @@ class MDNSpider(scrapy.Spider):
     strip_from_link = '/en-US/docs/Web/CSS'
 
     def start_requests(self):
-        check_index_not_populated()
+        try:
+            check_index_not_populated()
+        except Exception:
+            logger.debug('data already pushed to Algolia, you are good to go! 🙂')
+            os._exit(0)
         logger.debug('making request 🕷')
         urls = ['https://developer.mozilla.org/en-US/docs/Web/CSS/Reference']
         for url in urls:
@@ -42,4 +47,4 @@ class MDNSpider(scrapy.Spider):
             logger.debug('writing data to disk 💾')
             with open('data.json', 'w') as f:
                 f.write(json.dumps(self.all_kw, indent=4))
-        push_to_algolia()
+        push_to_index()

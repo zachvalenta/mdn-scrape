@@ -6,7 +6,7 @@ from dotenv import find_dotenv, load_dotenv
 from loguru import logger
 
 
-def get_algolia_index():
+def get_index():
     load_dotenv(find_dotenv())
     app_id = os.getenv('APP_ID')
     api_key_admin = os.getenv('API_KEY_ADMIN')
@@ -15,12 +15,12 @@ def get_algolia_index():
 
 
 def check_index_not_populated():
-    index = get_algolia_index()
+    index = get_index()
     if index.search('')['nbHits'] > 0:
-        exit('data already pushed to Algolia, bailing out 🛶')
+        raise Exception
 
 
-def push_to_algolia():
-    index = get_algolia_index()
+def push_to_index():
+    index = get_index()
     index.add_objects(json.load(open('data.json')))
     logger.debug('writing data to algolia 📡')

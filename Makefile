@@ -18,7 +18,7 @@ help:
 	@echo
 
 crawl:
-	cd mdn; scrapy crawl mdn_spider
+	cd mdn; scrapy crawl mdn_spider -s LOG_ENABLED=0
 
 search:
 	cd frontend; open index.html
