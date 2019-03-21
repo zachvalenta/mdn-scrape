@@ -3,6 +3,7 @@ import os
 
 from algoliasearch import algoliasearch
 from dotenv import find_dotenv, load_dotenv
+from loguru import logger
 
 
 def get_algolia_client():
@@ -15,4 +16,6 @@ def get_algolia_client():
 def push_to_algolia():
     client = get_algolia_client()
     index = client.init_index('css')
+    if index.search('')['nbHits'] == 577:
+        logger.debug('data already in index, aborting push')
     index.add_objects(json.load(open('data.json')))
