@@ -5,7 +5,13 @@ from loguru import logger
 import scrapy
 from w3lib.html import remove_tags
 
-from ..algolia_client import push_to_algolia
+from ..algolia_client import check_index_not_populated, push_to_algolia
+
+
+def check_data_file_empty():
+    with open('data.json') as f:
+        data = json.load(f)
+        return True if data else False
 
 
 class MDNSpider(scrapy.Spider):
@@ -17,13 +23,14 @@ class MDNSpider(scrapy.Spider):
     strip_from_link = '/en-US/docs/Web/CSS'
 
     def start_requests(self):
-        logger.debug('making request')
+        check_index_not_populated()
+        logger.debug('making request 🕷')
         urls = ['https://developer.mozilla.org/en-US/docs/Web/CSS/Reference']
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
-        logger.debug('parsing request')
+        logger.debug('parsing request 🕷')
         els = response.css(self.selector)
         for el in els:
             text_dirty = el.extract()
@@ -31,8 +38,8 @@ class MDNSpider(scrapy.Spider):
             link_dirty = re.findall(r'\"(.+?)\"', remove_tags(text_dirty, keep='a'))
             link = self.mdn_base_url + link_dirty[0].replace(self.strip_from_link, '')
             self.all_kw.append(dict(link=link, text=text))
-        logger.debug('writing data to disk')
-        with open('data.json', 'w') as f:
-            f.write(json.dumps(self.all_kw, indent=4))
-        logger.debug('writing data to algolia')
+        if check_data_file_empty():
+            logger.debug('writing data to disk 💾')
+            with open('data.json', 'w') as f:
+                f.write(json.dumps(self.all_kw, indent=4))
         push_to_algolia()
