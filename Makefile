@@ -24,7 +24,7 @@ search:
 	cd frontend; open index.html
 
 lint:
-	flake8 src
+	flake8 mdn/mdn/algolia_client.py mdn/mdn/spiders/mdn_spider.py
 
 pipfr:
 	pip freeze > requirements.txt
