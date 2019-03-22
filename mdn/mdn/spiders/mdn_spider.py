@@ -6,7 +6,7 @@ from loguru import logger
 import scrapy
 from w3lib.html import remove_tags
 
-from ..algolia_client import check_index_not_populated, push_to_index
+from ..algolia_client import check_index_populated, push_to_index
 
 
 def check_data_file_empty():
@@ -24,15 +24,14 @@ class MDNSpider(scrapy.Spider):
     strip_from_link = '/en-US/docs/Web/CSS'
 
     def start_requests(self):
-        try:
-            check_index_not_populated()
-        except Exception:
+        if check_index_populated():
             logger.debug('data already pushed to Algolia, you are good to go! 🙂')
-            os._exit(0)
-        logger.debug('making request 🕷')
-        urls = ['https://developer.mozilla.org/en-US/docs/Web/CSS/Reference']
-        for url in urls:
-            yield scrapy.Request(url=url, callback=self.parse)
+            return
+        else:
+            logger.debug('making request 🕷')
+            urls = ['https://developer.mozilla.org/en-US/docs/Web/CSS/Reference']
+            for url in urls:
+                yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
         logger.debug('parsing request 🕷')

@@ -14,10 +14,10 @@ def get_index():
     return client.init_index('css')
 
 
-def check_index_not_populated():
+def check_index_populated():
     index = get_index()
     if index.search('')['nbHits'] > 0:
-        raise Exception
+        return True
 
 
 def push_to_index():
