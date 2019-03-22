@@ -1,0 +1,2887 @@
+[
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:active",
+        "text": ":active",
+        "summary": "The :active CSS pseudo-class represents an element (such as a button) that is being activated by the user. When using a mouse, \"activation\" typically starts when the user presses down the primary mouse button."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/additive-symbols",
+        "text": "additive-symbols (@counter-style)",
+        "summary": "The additive-symbols descriptor lets you specify symbols when the value of a counter system descriptor is additive. The additive-symbols descriptor defines additive tuples, each of which is a pair containing a symbol and a non-negative integer weight. The additive system is used to construct sign-value numbering systems such as Roman numerals."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/::after",
+        "text": "::after (:after)",
+        "summary": "In CSS, ::after creates a pseudo-element that is the last child of the selected element. It is often used to add cosmetic content to an element with the content property. It is inline by default."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/align-content",
+        "text": "align-content",
+        "summary": "The CSS align-content property sets how the browser distributes space between and around content items along the cross-axis of a flexbox container, and the main-axis of a grid container."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/align-items",
+        "text": "align-items",
+        "summary": "The CSS align-items property sets the align-self value on all direct children as a group. The align-self property sets the alignment of an item within its containing block.\u00a0In Flexbox it controls the alignment of items on the Cross Axis, in Grid Layout it controls the alignment of items on the Block Axis within their grid area."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/align-self",
+        "text": "align-self",
+        "summary": "The align-self CSS property aligns flex items of the current flex line overriding the align-items value. If any of the item's cross-axis margin is set to auto, then align-self is ignored. In Grid layout align-self aligns the item inside the\u00a0grid area."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/all",
+        "text": "all",
+        "summary": "The all CSS shorthand property sets all of an element's properties (other than unicode-bidi and direction) to their initial or inherited values, or to the values specified in another stylesheet origin."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSSnew",
+        "text": "&lt;an-plus-b&gt;",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/angle",
+        "text": "&lt;angle&gt;",
+        "summary": "The &lt;angle&gt; CSS data type represents an angle value expressed in degrees, gradians, radians, or turns. It is used, for example, in &lt;gradient&gt;s and in some transform functions."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/angle-percentage",
+        "text": "&lt;angle-percentage&gt;",
+        "summary": "The &lt;angle-percentage&gt; CSS data type represents a value that can be either a &lt;angle&gt; or a &lt;percentage&gt;."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/animation",
+        "text": "animation",
+        "summary": "The animation shorthand CSS property sets an animated transition between styles. It is a shorthand for animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction, animation-fill-mode, and animation-play-state."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay",
+        "text": "animation-delay",
+        "summary": "The animation-delay CSS property sets when an animation starts. The animation can start later, immediately from its beginning, or immediately and partway through the animation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/animation-direction",
+        "text": "animation-direction",
+        "summary": "The animation-direction CSS property sets whether an animation should play forwards, backwards, or alternating back and forth."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/animation-duration",
+        "text": "animation-duration",
+        "summary": "The animation-duration CSS property sets the length of time that an animation takes to complete one cycle."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode",
+        "text": "animation-fill-mode",
+        "summary": "The animation-fill-mode CSS property sets how a CSS animation applies styles to its target before and after its execution."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/animation-iteration-count",
+        "text": "animation-iteration-count",
+        "summary": "The animation-iteration-count CSS property sets the number of times an animation cycle should be played before stopping."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name",
+        "text": "animation-name",
+        "summary": "The animation-name CSS property sets one or more animations to apply to an element. Each name is an @keyframes at-rule that sets the property values for the animation sequence."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state",
+        "text": "animation-play-state",
+        "summary": "The animation-play-state CSS property sets whether an animation is running or paused."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function",
+        "text": "animation-timing-function",
+        "summary": "The animation-timing-function CSS property sets how an animation progresses through the duration of each cycle."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-feature-values#@annotation",
+        "text": "@annotation",
+        "summary": "The @font-feature-values CSS at-rule lets you use a common name in the font-variant-alternates property for features activated differently in OpenType. This can help simplify your CSS when using multiple fonts."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-alternates#annotation()",
+        "text": "annotation()",
+        "summary": "The font-variant-alternates CSS property controls the usage of alternate glyphs. These alternate glyphs may be referenced by alternative names defined in @font-feature-values."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/attr",
+        "text": "attr()",
+        "summary": "The attr() CSS function is used to retrieve the value of an attribute of the selected element and use it in the style sheet. It can also be used on pseudo-elements, in which case the value of the attribute on the pseudo-element's originating element is returned."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop",
+        "text": "::backdrop",
+        "summary": "The ::backdrop CSS pseudo-element is a box the size of the viewport which is rendered immediately beneath any element being presented in full-screen mode. This includes both elements which have been placed in full-screen mode using the Fullscreen API and &lt;dialog&gt; elements."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility",
+        "text": "backface-visibility",
+        "summary": "The backface-visibility CSS property sets whether the back face of an element is visible when turned towards the user."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/background",
+        "text": "background",
+        "summary": "The background shorthand CSS property sets all background style properties at once, such as color, image, origin and size, or repeat method."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment",
+        "text": "background-attachment",
+        "summary": "The background-attachment CSS property sets whether a background image's position is fixed within the viewport, or scrolls with its containing block."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode",
+        "text": "background-blend-mode",
+        "summary": "The background-blend-mode CSS property sets how an element's background images should blend with each other and with the element's background color."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip",
+        "text": "background-clip",
+        "summary": "The background-clip CSS property sets whether an element's background &lt;color&gt; or &lt;image&gt; extends underneath its border."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-color",
+        "text": "background-color",
+        "summary": "The background-color CSS property sets the background color of an element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-image",
+        "text": "background-image",
+        "summary": "The background-image CSS property sets one or more\u00a0background images on an element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-origin",
+        "text": "background-origin",
+        "summary": "The background-origin CSS property sets the background positioning area. In other words, it sets the origin position of an image set with the background-image property."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-position",
+        "text": "background-position",
+        "summary": "The background-position CSS property sets the initial position for each background image. The position is relative to the position layer set by background-origin."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat",
+        "text": "background-repeat",
+        "summary": "The background-repeat CSS property sets how background images are repeated. A background image can be repeated along the horizontal and vertical axes, or not repeated at all."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-size",
+        "text": "background-size",
+        "summary": "The background-size CSS property sets the size of the element's background image. The image can be left to its natural size, stretched, or constrained to fit the available space."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape",
+        "text": "&lt;basic-shape&gt;",
+        "summary": "The &lt;basic-shape&gt; CSS data type represents a shape used in the clip-path, shape-outside, and\u00a0offset-path properties."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/::before",
+        "text": "::before (:before)",
+        "summary": "In CSS, ::before creates a pseudo-element that is the first child of the selected element. It is often used to add cosmetic content to an element with the content property. It is inline by default."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/blend-mode",
+        "text": "&lt;blend-mode&gt;",
+        "summary": "The &lt;blend-mode&gt; CSS data type describes how colors should appear when elements overlap. It is used in the background-blend-mode and mix-blend-mode properties."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/block-size",
+        "text": "block-size",
+        "summary": "The block-size CSS property defines the horizontal or vertical size of an element's block, depending on its writing mode. It corresponds to either the width or the height property, depending on the value of writing-mode."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/blur",
+        "text": "blur()",
+        "summary": "The blur() CSS function applies a Gaussian blur to the input image. Its result is a &lt;filter-function&gt;."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border",
+        "text": "border",
+        "summary": "The border CSS property sets an element's border. It's a shorthand for border-width, border-style, and border-color."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-block",
+        "text": "border-block",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-color",
+        "text": "border-block-color",
+        "summary": "The border-block-color CSS property defines the color of the logical block\u00a0borders of an element, which maps to a physical border color depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-color and\u00a0border-bottom-color, or border-right-color and\u00a0border-left-color property depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-end",
+        "text": "border-block-end",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-end-color",
+        "text": "border-block-end-color",
+        "summary": "The border-block-end-color CSS property defines the color of the logical block-end border of an element, which maps to a physical border color depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-color,\u00a0border-right-color,\u00a0border-bottom-color, or border-left-color property depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-end-style",
+        "text": "border-block-end-style",
+        "summary": "The border-block-end-style CSS property defines the style of the logical block end border of an element, which maps to a physical border style depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-style,\u00a0border-right-style,\u00a0border-bottom-style, or border-left-style property depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-end-width",
+        "text": "border-block-end-width",
+        "summary": "The border-block-end-width CSS property defines the width of the logical block-end border of an element, which maps to a physical border width depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-width,\u00a0border-right-width,\u00a0border-bottom-width, or border-left-width property depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-start",
+        "text": "border-block-start",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-start-color",
+        "text": "border-block-start-color",
+        "summary": "The border-block-start-color CSS property defines the color of the logical block-start border of an element, which maps to a physical border color depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-color,\u00a0border-right-color,\u00a0border-bottom-color, or border-left-color property depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-start-style",
+        "text": "border-block-start-style",
+        "summary": "The border-block-start-style CSS property defines the style of the logical block start border of an element, which maps to a physical border style depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-style,\u00a0border-right-style,\u00a0border-bottom-style, or border-left-style property depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-start-width",
+        "text": "border-block-start-width",
+        "summary": "The border-block-start-width CSS property defines the width of the logical block-start border of an element, which maps to a physical border width depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-width,\u00a0border-right-width,\u00a0border-bottom-width, or border-left-width property depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-style",
+        "text": "border-block-style",
+        "summary": "The border-block-style CSS property defines the style of the logical block borders of an element, which maps to a physical border style depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-style and\u00a0border-bottom-style, or\u00a0border-left-style and\u00a0border-right-style properties\u00a0depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-width",
+        "text": "border-block-width",
+        "summary": "The border-block-width CSS property defines the width of the logical block\u00a0borders of an element, which maps to a physical border width depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-width and\u00a0border-bottom-width, or border-left-width, and\u00a0border-right-width property depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-bottom",
+        "text": "border-bottom",
+        "summary": "The border-bottom CSS property is a shorthand that sets the values of border-bottom-width, border-bottom-style and border-bottom-color. These properties set an element's bottom border."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-bottom-color",
+        "text": "border-bottom-color",
+        "summary": "The border-bottom-color CSS property sets the color of an element's bottom border. It can also be set with the shorthand CSS properties border-color or border-bottom."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-bottom-left-radius",
+        "text": "border-bottom-left-radius",
+        "summary": "The border-bottom-left-radius CSS property rounds the bottom-left corner of an element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-bottom-right-radius",
+        "text": "border-bottom-right-radius",
+        "summary": "The border-bottom-right-radius CSS property rounds the bottom-right corner of an element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-bottom-style",
+        "text": "border-bottom-style",
+        "summary": "The border-bottom-style CSS property sets the line style of an element's bottom border."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-bottom-width",
+        "text": "border-bottom-width",
+        "summary": "The border-bottom-width CSS property sets the width of the bottom border of a box."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-collapse",
+        "text": "border-collapse",
+        "summary": "The border-collapse CSS property sets whether cells inside a &lt;table&gt; have shared or separate borders."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-color",
+        "text": "border-color",
+        "summary": "The border-color shorthand CSS property sets the color of all sides of an element's border."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-end-end-radius",
+        "text": "border-end-end-radius",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-end-start-radius",
+        "text": "border-end-start-radius",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-image",
+        "text": "border-image",
+        "summary": "The border-image CSS property draws an image in place of an element's border-style."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-image-outset",
+        "text": "border-image-outset",
+        "summary": "The border-image-outset CSS property sets the distance by which an element's border image is set out from its border box."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-image-repeat",
+        "text": "border-image-repeat",
+        "summary": "The border-image-repeat CSS property defines how the edge regions of a source image are adjusted to fit the dimensions of an element's border image."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-image-slice",
+        "text": "border-image-slice",
+        "summary": "The border-image-slice CSS property divides the image specified by border-image-source into regions. These regions form the components of an element's border image."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-image-source",
+        "text": "border-image-source",
+        "summary": "The border-image-source CSS property sets the source image used to create an element's border image."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-image-width",
+        "text": "border-image-width",
+        "summary": "The border-image-width CSS property sets the width of an element's border image."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline",
+        "text": "border-inline",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-color",
+        "text": "border-inline-color",
+        "summary": "The border-inline-color CSS property defines the color of the logical inline\u00a0borders of an element, which maps to a physical border color depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-color and\u00a0border-bottom-color, or border-right-color and\u00a0border-left-color property depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-end",
+        "text": "border-inline-end",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-end-color",
+        "text": "border-inline-end-color",
+        "summary": "The border-inline-end-color CSS property defines the color of the logical inline-end border of an element, which maps to a physical border color depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-color,\u00a0border-right-color,\u00a0border-bottom-color, or border-left-color property depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-end-style",
+        "text": "border-inline-end-style",
+        "summary": "The border-inline-end-style CSS property defines the style of the logical inline end border of an element, which maps to a physical border style depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-style,\u00a0border-right-style,\u00a0border-bottom-style, or border-left-style property depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-end-width",
+        "text": "border-inline-end-width",
+        "summary": "The border-inline-end-width CSS property defines the width of the logical inline-end border of an element, which maps to a physical border width depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-width,\u00a0border-right-width,\u00a0border-bottom-width, or border-left-width property depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-start",
+        "text": "border-inline-start",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-start-color",
+        "text": "border-inline-start-color",
+        "summary": "The border-inline-start-color CSS property defines the color of the logical inline start border of an element, which maps to a physical border color depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-color,\u00a0border-right-color,\u00a0border-bottom-color, or border-left-color property depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-start-style",
+        "text": "border-inline-start-style",
+        "summary": "The border-inline-start-style CSS property defines the style of the logical inline start border of an element, which maps to a physical border style depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-style,\u00a0border-right-style,\u00a0border-bottom-style, or border-left-style property depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-start-width",
+        "text": "border-inline-start-width",
+        "summary": "The border-inline-start-width CSS property defines the width of the logical inline-start border of an element, which maps to a physical border width depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-width,\u00a0border-right-width,\u00a0border-bottom-width, or border-left-width property depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-style",
+        "text": "border-inline-style",
+        "summary": "The border-inline-style CSS property defines the style of the logical inline\u00a0borders of an element, which maps to a physical border style depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-style and\u00a0border-bottom-style, or\u00a0border-left-style and\u00a0border-right-style properties\u00a0depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-width",
+        "text": "border-inline-width",
+        "summary": "The border-inline-width CSS property defines the width of the logical inline\u00a0borders of an element, which maps to a physical border width depending on the element's writing mode, directionality, and text orientation. It corresponds to the border-top-width and\u00a0border-bottom-width, or border-left-width, and\u00a0border-right-width property depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-left",
+        "text": "border-left",
+        "summary": "The border-left CSS property is a shorthand that sets the values of border-left-width, border-left-style and border-left-color. These properties set an element's left border."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-left-color",
+        "text": "border-left-color",
+        "summary": "The border-left-color CSS property sets the color of an element's left border. It can also be set with the shorthand CSS properties border-color or border-left."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-left-style",
+        "text": "border-left-style",
+        "summary": "The border-left-style CSS property sets the line style of an element's left border."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-left-width",
+        "text": "border-left-width",
+        "summary": "The border-left-width CSS property sets the width of the left border of an element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius",
+        "text": "border-radius",
+        "summary": "The border-radius CSS property rounds the corners of an element's outer border edge. You can set a single radius to make circular corners, or two radii to make elliptical corners."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-right",
+        "text": "border-right",
+        "summary": "The border-right CSS property is a shorthand that sets the values of border-right-width, border-right-style and border-right-color. These properties set an element's right border."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-right-color",
+        "text": "border-right-color",
+        "summary": "The border-right-color CSS property sets the color of an element's right border. It can also be set with the shorthand CSS properties border-color or border-right."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-right-style",
+        "text": "border-right-style",
+        "summary": "The border-right-style CSS property sets the line style of an element's right border."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-right-width",
+        "text": "border-right-width",
+        "summary": "The border-right-width CSS property sets the width of the right border of an element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-spacing",
+        "text": "border-spacing",
+        "summary": "The border-spacing CSS property sets the distance between the borders of adjacent &lt;table&gt; cells. This property applies only when border-collapse is separate."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-start-end-radius",
+        "text": "border-start-end-radius",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-start-start-radius",
+        "text": "border-start-start-radius",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-style",
+        "text": "border-style",
+        "summary": "The border-style CSS property is a shorthand property that sets the line style for all four sides of an element's border."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-top",
+        "text": "border-top",
+        "summary": "The border-top CSS property is a shorthand that sets the values of border-top-width, border-top-style and border-top-color. These properties set an element's top border."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-top-color",
+        "text": "border-top-color",
+        "summary": "The border-top-color CSS property sets the color of an element's top border. It can also be set with the shorthand CSS properties border-color or border-top."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-top-left-radius",
+        "text": "border-top-left-radius",
+        "summary": "The border-top-left-radius CSS property rounds the top-left corner of an element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-top-right-radius",
+        "text": "border-top-right-radius",
+        "summary": "The border-top-right-radius CSS property rounds the top-right corner of an element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-top-style",
+        "text": "border-top-style",
+        "summary": "The border-top-style CSS property sets the line style of an element's top border."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-top-width",
+        "text": "border-top-width",
+        "summary": "The border-top-width CSS property sets the width of the top border of an element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-width",
+        "text": "border-width",
+        "summary": "The border-width shorthand CSS property sets the widths of all four sides of an element's border."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/bottom",
+        "text": "bottom",
+        "summary": "The bottom CSS property participates in specifying the vertical position of a positioned element. It has no effect on non-positioned elements."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@page#page-margin-box-type",
+        "text": "@bottom-center",
+        "summary": "The @page CSS at-rule is used to modify some CSS properties when printing a document. You can't change all CSS properties with @page. You can only change the margins, orphans, widows, and page breaks of the document. Attempts to change any other CSS properties will be ignored."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-decoration-break",
+        "text": "box-decoration-break",
+        "summary": "The box-decoration-break CSS property specifies how an element's fragments should be rendered when broken across multiple lines, columns, or pages."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow",
+        "text": "box-shadow",
+        "summary": "The box-shadow CSS property adds shadow effects around an element's frame. You can set multiple effects separated by commas. A box shadow is described by X and Y offsets relative to the element, blur and spread radii, and color."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing",
+        "text": "box-sizing",
+        "summary": "The box-sizing CSS property defines how the user agent should calculate the total width and height of an element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/break-after",
+        "text": "break-after",
+        "summary": "The break-after CSS property defines how page, column, or region breaks should behave after a generated box. If there is no generated box, the property is ignored."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/break-before",
+        "text": "break-before",
+        "summary": "The break-before CSS property sets how page, column, or region breaks should behave before a generated box. If there is no generated box, the property is ignored."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/break-inside",
+        "text": "break-inside",
+        "summary": "The break-inside CSS property defines how page, column, or region breaks should behave inside a generated box. If there is no generated box, the property is ignored."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/brightness",
+        "text": "brightness()",
+        "summary": "The brightness() CSS function applies a linear multiplier to the input image, making it appear brighter or darker. Its result is a &lt;filter-function&gt;."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/calc",
+        "text": "calc()",
+        "summary": "The calc() CSS function lets you perform calculations when specifying CSS property values. It can be used anywhere a &lt;length&gt;, &lt;frequency&gt;, &lt;angle&gt;, &lt;time&gt;, &lt;percentage&gt;,\u00a0&lt;number&gt;, or &lt;integer&gt; is allowed."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/caption-side",
+        "text": "caption-side",
+        "summary": "The caption-side CSS property puts the content of a table's &lt;caption&gt; on the specified side. The values are relative to the writing-mode of the table."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/caret-color",
+        "text": "caret-color",
+        "summary": "The caret-color CSS property sets the color of the insertion caret, the visible marker where the next character typed will be inserted. The caret appears in elements such as &lt;input&gt; or those with the contenteditable attribute. The caret is typically a thin vertical line that flashes to help make it more noticeable. By default, it is black, but its color can be altered with this property."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/length#ch",
+        "text": "ch",
+        "summary": "The &lt;length&gt; CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-feature-values#@character-variant",
+        "text": "@character-variant",
+        "summary": "The @font-feature-values CSS at-rule lets you use a common name in the font-variant-alternates property for features activated differently in OpenType. This can help simplify your CSS when using multiple fonts."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-alternates#character-variant()",
+        "text": "character-variant()",
+        "summary": "The font-variant-alternates CSS property controls the usage of alternate glyphs. These alternate glyphs may be referenced by alternative names defined in @font-feature-values."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@charset",
+        "text": "@charset",
+        "summary": "The @charset CSS at-rule specifies the character encoding used in the style sheet. It must be the first element in the style sheet and not be preceded by any character; as it is not a nested statement, it cannot be used inside conditional group at-rules. If several @charset at-rules are defined, only the first one is used, and it cannot be used inside a style attribute on an HTML element or inside the &lt;style&gt; element where the character set of the HTML page is relevant."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:checked",
+        "text": ":checked",
+        "summary": "The :checked CSS pseudo-class selector represents any radio (&lt;input type=\"radio\"&gt;), checkbox (&lt;input type=\"checkbox\"&gt;), or option (&lt;option&gt; in a &lt;select&gt;) element that is checked or toggled to an on state."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape#circle()",
+        "text": "circle()",
+        "summary": "The &lt;basic-shape&gt; CSS data type represents a shape used in the clip-path, shape-outside, and\u00a0offset-path properties."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/clamp",
+        "text": "clamp()",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/clear",
+        "text": "clear",
+        "summary": "The clear CSS property sets whether an element must be moved below (cleared) floating elements that precede it. The clear property applies to floating and non-floating elements."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip",
+        "text": "clip",
+        "summary": "The clip CSS property defines what portion of an element is visible. The clip property applies only to absolutely positioned elements, that is elements with position:absolute or position:fixed."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path",
+        "text": "clip-path",
+        "summary": "The clip-path CSS property creates a clipping region that sets what part of an element should be shown. Parts that are inside the region are shown, while those outside are hidden."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/length#cm",
+        "text": "cm",
+        "summary": "The &lt;length&gt; CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value",
+        "text": "&lt;color&gt;",
+        "summary": "The &lt;color&gt; CSS data type represents a color in the sRGB color space. A &lt;color&gt; may also include an alpha-channel transparency value, indicating how the color should composite with its background."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/color",
+        "text": "color",
+        "summary": "The color CSS property sets the foreground color value of an element's text and text decorations, and sets the currentcolor value. currentcolor may be used as an indirect value on other properties and is the default for other color properties, such as border-color."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/color-adjust",
+        "text": "color-adjust",
+        "summary": "The color-adjust CSS property sets what, if anything, the user agent may do to optimize the appearance of the element on the output device. By default, the browser is allowed to make any adjustments to the element's appearance it determines to be necessary and prudent given the type and capabilities of the output device."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/column-count",
+        "text": "column-count",
+        "summary": "The column-count CSS property breaks an element's content into the specified number of columns."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/column-fill",
+        "text": "column-fill",
+        "summary": "The column-fill CSS property controls how an element's contents are balanced when broken into columns."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/column-gap",
+        "text": "column-gap",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule",
+        "text": "column-rule",
+        "summary": "The column-rule CSS property sets the width, style, and color of the rule (line) drawn between columns in a multi-column layout."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule-color",
+        "text": "column-rule-color",
+        "summary": "The column-rule-color CSS property sets the color of the rule (line) drawn between columns in a multi-column layout."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule-style",
+        "text": "column-rule-style",
+        "summary": "The column-rule-style CSS property sets the style of the line drawn between columns in a multi-column layout."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/column-rule-width",
+        "text": "column-rule-width",
+        "summary": "The column-rule-width CSS property sets the width of the rule (line) drawn between columns in a multi-column layout."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/column-span",
+        "text": "column-span",
+        "summary": "The column-span CSS property makes it possible for an element to span across all columns when its value is set to all."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/column-width",
+        "text": "column-width",
+        "summary": "The column-width CSS property specifies the ideal column width in a multi-column layout. The container will have as many columns as can fit without any of them having a width less than the column-width value. If the width of the container is narrower than the specified value, the single column's width will be smaller than the declared column width."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/columns",
+        "text": "columns",
+        "summary": "The columns CSS property sets the column width and column count of an element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/conic-gradient",
+        "text": "conic-gradient()",
+        "summary": "The conic-gradient() CSS function creates an image consisting of a radial gradient with color transitions around a center point rather than radiating from the center. Example conical gradients include pie charts and color wheels. The result of the conic-gradient() function is an object of the &lt;gradient&gt; data type, which is a special kind of &lt;image&gt;."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/content",
+        "text": "content",
+        "summary": "The content CSS property replaces an element with a generated value. Objects inserted using the content property are anonymous replaced elements."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/contrast",
+        "text": "contrast()",
+        "summary": "The contrast() CSS function adjusts the contrast of the input image. Its result is a &lt;filter-function&gt;."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/counter",
+        "text": "&lt;counter&gt;",
+        "summary": "CSS counters let you adjust the appearance of content based on its location in a document. For example, you can use counters to automatically number the headings in a webpage. Counters are, in essence, variables maintained by CSS whose values may be incremented by CSS rules to track how many times they're used."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/counter-increment",
+        "text": "counter-increment",
+        "summary": "The counter-increment CSS property increases or decreases the value of a CSS counter by a given value."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/counter-reset",
+        "text": "counter-reset",
+        "summary": "The counter-reset CSS property resets a CSS counter to a given value."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style",
+        "text": "@counter-style",
+        "summary": "The @counter-style CSS at-rule lets you define counter styles that are not part of the predefined set of styles. A @counter-style rule defines how to convert a counter value into a string representation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/cross-fade",
+        "text": "cross-fade()",
+        "summary": "The CSS cross-fade() function can be used to blend two or more images at a defined transparency. It can be used for many simple image manipulations, such as tinting an image with a solid color or highlighting a particular area of the page by combining an image with a radial gradient."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/single-transition-timing-function#cubic-bezier()",
+        "text": "cubic-bezier()",
+        "summary": "The &lt;timing-function&gt; CSS data type denotes a mathematical function that describes how fast one-dimensional values change during animations. This lets you\u00a0vary the animation's speed over the course of its duration."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/::cue",
+        "text": "::cue",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor",
+        "text": "cursor",
+        "summary": "The cursor CSS property sets mouse cursor to display when the mouse pointer is over an element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/custom-ident",
+        "text": "&lt;custom-ident&gt;",
+        "summary": "The &lt;custom-ident&gt; CSS data type denotes an arbitrary user-defined string used as an identifier. It is case-sensitive, and certain values are forbidden in various contexts to prevent ambiguity."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:default",
+        "text": ":default",
+        "summary": "The :default CSS pseudo-class selects form elements that are the default in a group of related elements."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/angle#deg",
+        "text": "deg",
+        "summary": "The &lt;angle&gt; CSS data type represents an angle value expressed in degrees, gradians, radians, or turns. It is used, for example, in &lt;gradient&gt;s and in some transform functions."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/dimension",
+        "text": "&lt;dimension&gt;",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:dir",
+        "text": ":dir",
+        "summary": "The :dir() CSS pseudo-class matches elements based on the directionality of the text contained in them."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/direction",
+        "text": "direction",
+        "summary": "The direction CSS property sets the direction of text, table columns, and horizontal overflow. Use rtl for languages written from right to left (like Hebrew or Arabic), and ltr for those written from left to right (like English and most other languages)."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:disabled",
+        "text": ":disabled",
+        "summary": "The :disabled CSS pseudo-class represents any disabled element. An element is disabled if it can't be activated (selected, clicked on, typed into, etc.) or accept focus. The element also has an enabled state, in which it can be activated or accept focus."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/display",
+        "text": "display",
+        "summary": "The display CSS property defines the display type of an element, which consists of the two basic qualities of how an element generates boxes \u2014 the outer display type defining how the box participates in flow layout, and the inner display type defining how the children of the box are laid out."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/display-box",
+        "text": "&lt;display-box&gt;",
+        "summary": "These keywords define whether an element generates display boxes at all."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/display-inside",
+        "text": "&lt;display-inside&gt;",
+        "summary": "These keywords specify the element\u2019s inner display type, which defines the type of formatting context that lays out its contents (assuming it is a non-replaced element). These keywords are used as values of the display property, and can be used for legacy purposes as a single keyword, or as defined in the Level 3 specification alongside a value from the\u00a0&lt;display-outside&gt;\u00a0keywords."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/display-internal",
+        "text": "&lt;display-internal&gt;",
+        "summary": "Some layout models such as\u00a0table\u00a0and ruby have a complex internal structure, with several different roles that their children and descendants can fill. This page\u00a0defines those \"internal\" display values, which only have meaning within that particular layout mode."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/display-legacy",
+        "text": "&lt;display-legacy&gt;",
+        "summary": "CSS 2 used a single-keyword syntax for the display property, requiring separate keywords for block-level and inline-level variants of the same layout mode. This page details those values."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/display-listitem",
+        "text": "&lt;display-listitem&gt;",
+        "summary": "The list-item keyword causes the element to generate a ::marker pseudo-element with the content specified by its list-style properties (for example a bullet point) together with a principal box of the specified type for its own contents."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/display-outside",
+        "text": "&lt;display-outside&gt;",
+        "summary": "The &lt;display-outside&gt;\u00a0keywords specify the element\u2019s outer display type, which is essentially its role in flow layout. These keywords are used as values of the display property, and can be used for legacy purposes as a single keyword, or as defined in the Level 3 specification alongside a value from the\u00a0&lt;display-inside&gt; keywords."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/resolution#dpcm",
+        "text": "dpcm",
+        "summary": "The &lt;resolution&gt; CSS data type, used for describing resolutions in media queries, denotes the pixel density of an output device, i.e., its resolution."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/resolution#dpi",
+        "text": "dpi",
+        "summary": "The &lt;resolution&gt; CSS data type, used for describing resolutions in media queries, denotes the pixel density of an output device, i.e., its resolution."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/resolution#dppx",
+        "text": "dppx",
+        "summary": "The &lt;resolution&gt; CSS data type, used for describing resolutions in media queries, denotes the pixel density of an output device, i.e., its resolution."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow",
+        "text": "drop-shadow()",
+        "summary": "The drop-shadow() CSS function applies a drop shadow effect to the input image. Its result is a &lt;filter-function&gt;."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/element",
+        "text": "element()",
+        "summary": "The element() CSS function defines an &lt;image&gt; value generated from an arbitrary HTML element. This image is live, meaning that if the HTML element is changed, the CSS properties using the resulting value are automatically updated."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape#ellipse()",
+        "text": "ellipse()",
+        "summary": "The &lt;basic-shape&gt; CSS data type represents a shape used in the clip-path, shape-outside, and\u00a0offset-path properties."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/length#em",
+        "text": "em",
+        "summary": "The &lt;length&gt; CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:empty",
+        "text": ":empty",
+        "summary": "The :empty CSS pseudo-class represents any element that has no children. Children can be either element nodes or text (including whitespace). Comments, processing instructions, and CSS content do not affect whether an element is considered empty."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/empty-cells",
+        "text": "empty-cells",
+        "summary": "The empty-cells CSS property sets whether borders and backgrounds appear around &lt;table&gt; cells that have no visible content."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:enabled",
+        "text": ":enabled",
+        "summary": "The :enabled CSS pseudo-class represents any enabled element. An element is enabled if it can be activated (selected, clicked on, typed into, etc.) or accept focus. The element also has a disabled state, in which it can't be activated or accept focus."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/env",
+        "text": "env()",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/length#ex",
+        "text": "ex",
+        "summary": "The &lt;length&gt; CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/fallback",
+        "text": "fallback (@counter-style)",
+        "summary": "The fallback descriptor can be used to specify a counter style to fall back to if the current counter style cannot create a marker representation for a particular counter value. If the specified fallback style is also unable to construct a representation, then its fallback style will be used. If a valid fallback style is not specified, it defaults to decimal."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/filter",
+        "text": "filter",
+        "summary": "The filter CSS property applies graphical effects like blur or color shift to an element. Filters are commonly used to adjust the rendering of images, backgrounds, and borders."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function",
+        "text": "&lt;filter-function&gt;",
+        "summary": "The &lt;filter-function&gt; CSS data type represents a graphical effect that can change the appearance of an input image. It is used in the filter and backdrop-filter properties."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:first",
+        "text": ":first",
+        "summary": "The :first CSS pseudo-class, used with the\u00a0 @page at-rule, represents the first page of a printed document."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child",
+        "text": ":first-child",
+        "summary": "The :first-child CSS pseudo-class represents the first element among a group of sibling elements."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter",
+        "text": "::first-letter (:first-letter)",
+        "summary": "The ::first-letter CSS pseudo-element applies styles to the first letter of the first line of a block-level element, but only when not preceded by other content (such as images or inline tables)."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/::first-line",
+        "text": "::first-line (:first-line)",
+        "summary": "The ::first-line CSS pseudo-element applies styles to the first line of a block-level element. Note that the length of the first line depends on many factors, including the width of the element, the width of the document, and the font size of the text."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:first-of-type",
+        "text": ":first-of-type",
+        "summary": "The :first-of-type CSS pseudo-class represents the first element of its type among a group of sibling elements."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/fit-content",
+        "text": "fit-content()",
+        "summary": "The fit-content() CSS function clamps a given size to an available size according to the formula min(maximum size, max(minimum size, argument))."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/flex_value",
+        "text": "&lt;flex&gt;",
+        "summary": "The &lt;flex&gt; CSS data type denotes a flexible length within a grid container. It is used in grid-template-columns, grid-template-rows and other related properties."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/flex",
+        "text": "flex",
+        "summary": "The flex CSS property sets how a flex item will grow or shrink to fit the space available in its flex container. It is a shorthand for flex-grow, flex-shrink, and flex-basis."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis",
+        "text": "flex-basis",
+        "summary": "The flex-basis CSS property sets the initial main size of a flex item. It sets the size of the content box unless otherwise set with box-sizing."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction",
+        "text": "flex-direction",
+        "summary": "The flex-direction CSS property sets how flex items are placed in the flex container defining the main axis and the direction (normal or reversed)."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/flex-flow",
+        "text": "flex-flow",
+        "summary": "The flex-flow CSS property is a shorthand property for flex-direction and flex-wrap properties."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow",
+        "text": "flex-grow",
+        "summary": "The flex-grow CSS property sets how much of the available space in the flex container should be assigned to that item (the flex grow factor). If all sibling items have the same flex grow factor, then all items will receive the same share of available space, otherwise it is distributed according to the ratio defined by the different flex grow factors."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink",
+        "text": "flex-shrink",
+        "summary": "The flex-shrink CSS property sets the flex shrink factor of a flex item. If the size of flex items is larger than the flex container, items shrink to fit according to flex-shrink."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap",
+        "text": "flex-wrap",
+        "summary": "The flex-wrap CSS property sets whether flex items are forced onto one line or can wrap onto multiple lines. If wrapping is allowed, it sets the direction that lines are stacked."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/float",
+        "text": "float",
+        "summary": "The float CSS property places an element on the left or right side of its container, allowing text and inline elements to wrap around it. The element is removed from the normal flow of the page, though still remaining a part of the flow (in contrast to absolute positioning)."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:focus",
+        "text": ":focus",
+        "summary": "The :focus CSS pseudo-class represents an element (such as a form input) that has received focus. It is generally triggered when the user clicks or taps on an element or selects it with the keyboard's \"tab\" key."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font",
+        "text": "font",
+        "summary": "The font CSS property is a shorthand for font-style, font-variant, font-weight, font-size, line-height, and font-family. Alternatively, it sets an element's font to a system font."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face",
+        "text": "@font-face",
+        "summary": "The @font-face CSS at-rule specifies a custom font with which to display text; the font can be loaded from either a remote server or a locally-installed font on the user's own computer. If the local() function is provided, specifying a font name to look for on the user's computer, and the user agent finds a match, that local font is used. Otherwise, the font resource specified using the url() function is downloaded and used."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-family",
+        "text": "font-family",
+        "summary": "The font-family CSS property specifies a prioritized list of one or more font family names and/or generic family names for the selected element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-family",
+        "text": "font-family (@font-face)",
+        "summary": "The font-family\u00a0CSS descriptor allows authors to specify the font family for the font specified in an @font-face rule."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-feature-settings",
+        "text": "font-feature-settings",
+        "summary": "The font-feature-settings CSS property controls advanced typographic features in OpenType fonts."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSSnew",
+        "text": "font-feature-settings (@font-face)",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-feature-values",
+        "text": "@font-feature-values",
+        "summary": "The @font-feature-values CSS at-rule lets you use a common name in the font-variant-alternates property for features activated differently in OpenType. This can help simplify your CSS when using multiple fonts."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-kerning",
+        "text": "font-kerning",
+        "summary": "The font-kerning CSS property sets the use of the kerning information stored in a font."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-language-override",
+        "text": "font-language-override",
+        "summary": "The font-language-override CSS property controls the use of language-specific glyphs in a typeface."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-optical-sizing",
+        "text": "font-optical-sizing",
+        "summary": "The font-optical-sizing CSS property sets whether text rendering is optimized for viewing at different sizes. This only works for fonts that have an optical size variation axis."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-size",
+        "text": "font-size",
+        "summary": "The font-size CSS property sets the size of the font. This property is also used to compute the size of em, ex, and other relative &lt;length&gt; units."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-size-adjust",
+        "text": "font-size-adjust",
+        "summary": "The font-size-adjust CSS property sets how the font size should be chosen based on the height of lowercase rather than capital letters."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch",
+        "text": "font-stretch",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSSnew",
+        "text": "font-stretch (@font-face)",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-style",
+        "text": "font-style",
+        "summary": "The font-style CSS property sets whether a font should be styled with a normal, italic, or oblique face from its font-family."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-style",
+        "text": "font-style (@font-face)",
+        "summary": "The font-style CSS descriptor allows authors to specify font styles for the fonts specified in the @font-face rule."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-synthesis",
+        "text": "font-synthesis",
+        "summary": "The font-synthesis CSS property controls which missing typefaces, bold or italic, may be synthesized by the browser."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant",
+        "text": "font-variant",
+        "summary": "The font-variant CSS property is a shorthand for the longhand properties font-variant-caps, font-variant-numeric, font-variant-alternates, font-variant-ligatures, and font-variant-east-asian. You can also set the CSS Level 2 (Revision 1) values of font-variant, (that is, normal or small-caps), by using the font shorthand."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSSnew",
+        "text": "font-variant (@font-face)",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-alternates",
+        "text": "font-variant-alternates",
+        "summary": "The font-variant-alternates CSS property controls the usage of alternate glyphs. These alternate glyphs may be referenced by alternative names defined in @font-feature-values."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-caps",
+        "text": "font-variant-caps",
+        "summary": "The font-variant-caps CSS property controls the use of alternate glyphs for capital letters."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-east-asian",
+        "text": "font-variant-east-asian",
+        "summary": "The font-variant-east-asian CSS property controls the use of alternate glyphs for East Asian scripts, like Japanese and Chinese."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-ligatures",
+        "text": "font-variant-ligatures",
+        "summary": "The font-variant-ligatures CSS property controls which ligatures and contextual forms are used in textual content of the elements it applies to. This leads to more harmonized forms in the resulting text."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-numeric",
+        "text": "font-variant-numeric",
+        "summary": "The font-variant-numeric CSS property controls the usage of alternate glyphs for numbers, fractions, and ordinal markers."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-position",
+        "text": "font-variant-position",
+        "summary": "The font-variant-position CSS property controls the use of alternate, smaller glyphs that are positioned as superscript or subscript."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-variation-settings",
+        "text": "font-variation-settings (@font-face)",
+        "summary": "The font-variation-settings CSS descriptor allows authors to specify low-level OpenType or TrueType font variations in the @font-face rule."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight",
+        "text": "font-weight",
+        "summary": "The font-weight CSS property specifies the weight (or boldness) of the font. The font weights available to you will depend on the font-family you are using. Some fonts are only available in normal and bold."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSSnew",
+        "text": "font-weight (@font-face)",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/src#format()",
+        "text": "format()",
+        "summary": "The src CSS descriptor of the @font-face rule specifies the resource containing font data. It is required for the @font-face rule to be valid."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/flex_value#fr",
+        "text": "fr",
+        "summary": "The &lt;flex&gt; CSS data type denotes a flexible length within a grid container. It is used in grid-template-columns, grid-template-rows and other related properties."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/single-transition-timing-function#frames()",
+        "text": "frames()",
+        "summary": "The &lt;timing-function&gt; CSS data type denotes a mathematical function that describes how fast one-dimensional values change during animations. This lets you\u00a0vary the animation's speed over the course of its duration."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/frequency",
+        "text": "&lt;frequency&gt;",
+        "summary": "The &lt;frequency&gt; CSS data type represents a frequency dimension, such as the pitch of a speaking voice. It is not currently used in any CSS properties."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/frequency-percentage",
+        "text": "&lt;frequency-percentage&gt;",
+        "summary": "The &lt;frequency-percentage&gt; CSS data type represents a value that can be either a &lt;frequency&gt; or a &lt;percentage&gt;."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:fullscreen",
+        "text": ":fullscreen",
+        "summary": "The :fullscreen CSS pseudo-class matches every element which is currently in full-screen mode. If multiple elements have been put into full-screen mode, this selects them all."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/gap",
+        "text": "gap",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/angle#grad",
+        "text": "grad",
+        "summary": "The &lt;angle&gt; CSS data type represents an angle value expressed in degrees, gradians, radians, or turns. It is used, for example, in &lt;gradient&gt;s and in some transform functions."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/gradient",
+        "text": "&lt;gradient&gt;",
+        "summary": "The &lt;gradient&gt; CSS data type is a special type of &lt;image&gt; that consists of a progressive transition between two or more colors."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/grayscale",
+        "text": "grayscale()",
+        "summary": "The grayscale() CSS function converts the input image to grayscale. Its result is a &lt;filter-function&gt;."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid",
+        "text": "grid",
+        "summary": "The grid CSS property is a shorthand property that sets all of the explicit grid properties (grid-template-rows, grid-template-columns, and grid-template-areas), and all the implicit grid properties (grid-auto-rows, grid-auto-columns, and grid-auto-flow),\u00a0in a single declaration."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-area",
+        "text": "grid-area",
+        "summary": "The grid-area CSS property is a shorthand property for grid-row-start, grid-column-start, grid-row-end and grid-column-end, specifying a grid item\u2019s size and location within the grid row by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the edges of its grid area."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-columns",
+        "text": "grid-auto-columns",
+        "summary": "The grid-auto-columns CSS property specifies the size of an implicitly-created grid column track."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-flow",
+        "text": "grid-auto-flow",
+        "summary": "The grid-auto-flow CSS property controls how the auto-placement algorithm works, specifying exactly how auto-placed items get flowed into the grid."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-auto-rows",
+        "text": "grid-auto-rows",
+        "summary": "The grid-auto-rows CSS property specifies the size of an implicitly-created grid row track."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column",
+        "text": "grid-column",
+        "summary": "The grid-column CSS property is a shorthand property for grid-column-start and grid-column-end specifying a grid item's size and location within the grid column by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the inline-start and inline-end edge of its grid area."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-end",
+        "text": "grid-column-end",
+        "summary": "The grid-column-end CSS property specifies a grid item\u2019s end position within the grid column by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the block-end edge of its grid area."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column-start",
+        "text": "grid-column-start",
+        "summary": "The grid-column-start CSS property specifies a grid item\u2019s start position within the grid column by contributing a line, a span, or nothing (automatic) to its grid placement. This start position defines the block-start edge of the grid area."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row",
+        "text": "grid-row",
+        "summary": "The grid-row CSS property is a shorthand property for grid-row-start and grid-row-end specifying a grid item\u2019s size and location within the grid row by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the inline-start and inline-end edge of its grid area."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row-end",
+        "text": "grid-row-end",
+        "summary": "The grid-row-end CSS property specifies a grid item\u2019s end position within the grid row by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the inline-end edge of its grid area."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-row-start",
+        "text": "grid-row-start",
+        "summary": "The grid-row-start CSS property specifies a grid item\u2019s start position within the grid row by contributing a line, a span, or nothing (automatic) to its grid placement, thereby specifying the inline-start edge of its grid area."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template",
+        "text": "grid-template",
+        "summary": "The grid-template CSS property is a shorthand property for defining grid columns, rows, and areas."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas",
+        "text": "grid-template-areas",
+        "summary": "The grid-template-areas CSS property specifies named grid areas."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns",
+        "text": "grid-template-columns",
+        "summary": "The grid-template-columns CSS property defines the line names and track sizing functions of the grid columns."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows",
+        "text": "grid-template-rows",
+        "summary": "The grid-template-rows CSS property defines the line names and track sizing functions of the grid rows."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/frequency#Hz",
+        "text": "Hz",
+        "summary": "The &lt;frequency&gt; CSS data type represents a frequency dimension, such as the pitch of a speaking voice. It is not currently used in any CSS properties."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/hanging-punctuation",
+        "text": "hanging-punctuation",
+        "summary": "The hanging-punctuation CSS property specifies whether a punctuation mark should hang at the start or end of a line of text. Hanging punctuation may be placed outside the line box."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/height",
+        "text": "height",
+        "summary": "The height CSS property specifies the height of an element. By default, the property defines the height of the content area. If box-sizing is set to border-box, however, it instead determines the height of the border area."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@viewport/height",
+        "text": "height (@viewport)",
+        "summary": "The height CSS descriptor is a shorthand descriptor for setting both min-height and max-height of the viewport. by providing one viewport length value will set both, the minimum height and the maximum height, to the value provided."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSSnew",
+        "text": "@historical-forms",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:hover",
+        "text": ":hover",
+        "summary": "The :hover CSS pseudo-class matches when the user interacts with an element with a pointing device, but does not necessarily activate it. It is generally triggered when the user hovers over an element with the cursor (mouse pointer)."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#hsl()",
+        "text": "hsl()",
+        "summary": "The &lt;color&gt; CSS data type represents a color in the sRGB color space. A &lt;color&gt; may also include an alpha-channel transparency value, indicating how the color should composite with its background."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#hsla()",
+        "text": "hsla()",
+        "summary": "The &lt;color&gt; CSS data type represents a color in the sRGB color space. A &lt;color&gt; may also include an alpha-channel transparency value, indicating how the color should composite with its background."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/hue-rotate",
+        "text": "hue-rotate()",
+        "summary": "The hue-rotate() CSS function rotates the hue of\u00a0an element and its contents. Its result is a &lt;filter-function&gt;."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens",
+        "text": "hyphens",
+        "summary": "The hyphens CSS property specifies how words should be hyphenated when text wraps across multiple lines. You can prevent hyphenation entirely, use hyphenation in manually-specified points within the text, or let the browser automatically insert hyphens where appropriate."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSSnew",
+        "text": "&lt;ident&gt;",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/image",
+        "text": "&lt;image&gt;",
+        "summary": "The &lt;image&gt; CSS data type represents a two-dimensional image. There are two kinds of images: plain images, referenced with a &lt;url&gt;, and dynamically-generated images, generated with &lt;gradient&gt; or element(). Additional CSS image functions include image(), image-set(), and cross-fade(). Images can be used with numerous CSS properties, such as background-image, border-image, content, cursor, and list-style-image."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/image#The_image()_functional_notation",
+        "text": "image()",
+        "summary": "The &lt;image&gt; CSS data type represents a two-dimensional image. There are two kinds of images: plain images, referenced with a &lt;url&gt;, and dynamically-generated images, generated with &lt;gradient&gt; or element(). Additional CSS image functions include image(), image-set(), and cross-fade(). Images can be used with numerous CSS properties, such as background-image, border-image, content, cursor, and list-style-image."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/image-orientation",
+        "text": "image-orientation",
+        "summary": "The image-orientation CSS property specifies a layout-independent correction to the orientation of an image. It should not be used for any other orientation adjustments; instead, the transform property should be used with the rotate &lt;transform-function&gt;."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering",
+        "text": "image-rendering",
+        "summary": "The image-rendering CSS property sets an image scaling algorithm. The property applies to an element itself, to any images set in its other properties, and to its descendants."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/image-set",
+        "text": "image-set()",
+        "summary": "The image-set() CSS function notation is a method of letting the browser pick the most appropriate CSS image from a given set, primarily for high pixel density screens."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@import",
+        "text": "@import",
+        "summary": "The @import CSS at-rule is used to import style rules from other style sheets. These rules must precede all other types of rules, except @charset rules; as it is not a nested statement, @import cannot be used inside conditional group at-rules."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/length#in",
+        "text": "in",
+        "summary": "The &lt;length&gt; CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:in-range",
+        "text": ":in-range",
+        "summary": "The :in-range CSS pseudo-class represents an &lt;input&gt; element whose current value is within the range limits specified by the min and max attributes."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:indeterminate",
+        "text": ":indeterminate",
+        "summary": "The :indeterminate CSS pseudo-class represents any form element whose state is indeterminate."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/inherit",
+        "text": "inherit",
+        "summary": "The inherit CSS keyword causes the element for which it is specified to take the computed value of the property from its parent element. It can be applied to any CSS property, including the CSS shorthand all."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/initial",
+        "text": "initial",
+        "summary": "The initial CSS keyword applies the initial (or default) value of a property to an element. The inital value should not be confused with the value specified by the browser's style sheet. It can be applied to any CSS property. This includes the CSS shorthand all, with which initial can be used to restore all CSS properties to their initial state."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/inline-size",
+        "text": "inline-size",
+        "summary": "The inline-size CSS property defines the horizontal or vertical size of an element's block, depending on its writing mode. It corresponds to either the width or the height property, depending on the value of writing-mode."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/inset",
+        "text": "inset",
+        "summary": "The inset\u00a0CSS property defines the logical block and inline start and\u00a0end offsets of an element, which map\u00a0to physical offsets depending on the element's writing mode, directionality, and text orientation. It corresponds to the top and\u00a0bottom, or right and\u00a0left properties\u00a0depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape#inset()",
+        "text": "inset()",
+        "summary": "The &lt;basic-shape&gt; CSS data type represents a shape used in the clip-path, shape-outside, and\u00a0offset-path properties."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/inset-block",
+        "text": "inset-block",
+        "summary": "The inset-block\u00a0CSS property defines the logical block start and end offsets of an element, which maps to physical offsets depending on the element's writing mode, directionality, and text orientation. It corresponds to the top and\u00a0bottom, or right and\u00a0left properties\u00a0depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/inset-block-end",
+        "text": "inset-block-end",
+        "summary": "The inset-block-end CSS property defines the logical block end offset of an element, which maps to a physical inset depending on the element's writing mode, directionality, and text orientation. It corresponds to the top, right, bottom, or left property depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/inset-block-start",
+        "text": "inset-block-start",
+        "summary": "The inset-block-start CSS property defines the logical block start offset of an element, which maps to a physical inset depending on the element's writing mode, directionality, and text orientation. It corresponds to the top, right, bottom, or left property depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/inset-inline",
+        "text": "inset-inline",
+        "summary": "The inset-inline\u00a0CSS property defines the logical block start and end offsets of an element, which maps to physical offsets depending on the element's writing mode, directionality, and text orientation. It corresponds to the top and\u00a0bottom, or right and\u00a0left properties\u00a0depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/inset-inline-end",
+        "text": "inset-inline-end",
+        "summary": "The inset-inline-end CSS property defines the logical inline end inset of an element, which maps to a physical inset depending on the element's writing mode, directionality, and text orientation. It corresponds to the top, right, bottom, or left property depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/inset-inline-start",
+        "text": "inset-inline-start",
+        "summary": "The inset-inline-start CSS property defines the logical inline start inset of an element, which maps to a physical offset depending on the element's writing mode, directionality, and text orientation. It corresponds to the top, right, bottom, or left property depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/integer",
+        "text": "&lt;integer&gt;",
+        "summary": "The &lt;integer&gt; CSS data type is a special type of &lt;number&gt; that represents a whole number, whether positive or negative. Integers can be used in numerous CSS properties, such as column-count, counter-increment, grid-column, grid-row, and z-index."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:invalid",
+        "text": ":invalid",
+        "summary": "The :invalid CSS pseudo-class represents any &lt;input&gt; or other &lt;form&gt; element whose contents fail to validate."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/invert",
+        "text": "invert()",
+        "summary": "The invert() CSS function inverts the color samples in the input image. Its result is a &lt;filter-function&gt;."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/isolation",
+        "text": "isolation",
+        "summary": "The isolation CSS property determines whether an element must create a new stacking context."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content",
+        "text": "justify-content",
+        "summary": "The CSS justify-content property defines how the browser distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid container."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/justify-items",
+        "text": "justify-items",
+        "summary": "The CSS justify-items property defines the default justify-self for all items of the box, giving them all a default way of justifying each box along the appropriate axis."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/justify-self",
+        "text": "justify-self",
+        "summary": "The CSS justify-self property set the way a box is justified inside its alignment container along the appropriate axis."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/frequency#kHz",
+        "text": "kHz",
+        "summary": "The &lt;frequency&gt; CSS data type represents a frequency dimension, such as the pitch of a speaking voice. It is not currently used in any CSS properties."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes",
+        "text": "@keyframes",
+        "summary": "The @keyframes CSS at-rule controls the intermediate steps in a CSS animation sequence by defining styles for keyframes (or waypoints) along the animation sequence. This gives more control over the intermediate steps of the animation sequence than transitions."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:lang",
+        "text": ":lang",
+        "summary": "The :lang() CSS pseudo-class matches elements based on the language they are determined to be in."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:last-child",
+        "text": ":last-child",
+        "summary": "The :last-child CSS pseudo-class represents the last element among a group of sibling elements."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type",
+        "text": ":last-of-type",
+        "summary": "The :last-of-type CSS pseudo-class represents the last element of its type among a group of sibling elements."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSSnew",
+        "text": "leader()",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:left",
+        "text": ":left",
+        "summary": "The :left CSS pseudo-class, used with the @page at-rule, represents all left-hand pages of a printed document."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/left",
+        "text": "left",
+        "summary": "The left CSS property participates in specifying the horizontal position of a positioned element. It has no effect on non-positioned elements."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@page#page-margin-box-type",
+        "text": "@left-bottom",
+        "summary": "The @page CSS at-rule is used to modify some CSS properties when printing a document. You can't change all CSS properties with @page. You can only change the margins, orphans, widows, and page breaks of the document. Attempts to change any other CSS properties will be ignored."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+        "text": "&lt;length&gt;",
+        "summary": "The &lt;length&gt; CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/length-percentage",
+        "text": "&lt;length-percentage&gt;",
+        "summary": "The &lt;length-percentage&gt; CSS data type represents a value that\u00a0can be either a \u00a0&lt;length&gt; or a &lt;percentage&gt;."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing",
+        "text": "letter-spacing",
+        "summary": "The letter-spacing CSS property sets the spacing behavior between text characters."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/line-break",
+        "text": "line-break",
+        "summary": "The line-break CSS property sets how to break lines of Chinese, Japanese, or Korean (CJK) text when working with punctuation and symbols."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/line-height",
+        "text": "line-height",
+        "summary": "The line-height CSS property sets the amount of space used for lines, such as in text. On block-level elements, it specifies the minimum height of line boxes within the element. On non-replaced inline elements, it specifies the height that is used to calculate line box height."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient",
+        "text": "linear-gradient()",
+        "summary": "The linear-gradient() CSS function creates an image consisting of a progressive transition between two or more colors along a straight line. Its result is an object of the &lt;gradient&gt; data type, which is a special kind of &lt;image&gt;."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:link",
+        "text": ":link",
+        "summary": "The :link CSS pseudo-class represents an element that has not yet been visited. It matches every unvisited &lt;a&gt;, &lt;area&gt;, or &lt;link&gt; element that has an href attribute."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/list-style",
+        "text": "list-style",
+        "summary": "The list-style CSS property is a shorthand to set list style properties list-style-type, list-style-image, and list-style-position."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-image",
+        "text": "list-style-image",
+        "summary": "The list-style-image CSS property sets an image to be used as the list item marker."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position",
+        "text": "list-style-position",
+        "summary": "The list-style-position CSS property sets the position of the ::marker relative to a list item."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type",
+        "text": "list-style-type",
+        "summary": "The list-style-type CSS property sets the marker (such as a disc, character, or custom counter style) of a list item element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/src#local()",
+        "text": "local()",
+        "summary": "The src CSS descriptor of the @font-face rule specifies the resource containing font data. It is required for the @font-face rule to be valid."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin",
+        "text": "margin",
+        "summary": "The margin CSS property sets the margin area on all four sides of an element. It is a shorthand for margin-top, margin-right, margin-bottom, and margin-left."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin-block",
+        "text": "margin-block",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin-block-end",
+        "text": "margin-block-end",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin-block-start",
+        "text": "margin-block-start",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin-bottom",
+        "text": "margin-bottom",
+        "summary": "The margin-bottom CSS property sets the margin area on the bottom of an element. A positive value places it farther from its neighbors, while a negative value places it closer."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin-inline",
+        "text": "margin-inline",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin-inline-end",
+        "text": "margin-inline-end",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin-inline-start",
+        "text": "margin-inline-start",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin-left",
+        "text": "margin-left",
+        "summary": "The margin-left CSS property sets the margin area on the left side of an element. A positive value places it farther from its neighbors, while a negative value places it closer."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin-right",
+        "text": "margin-right",
+        "summary": "The margin-right CSS property sets the margin area on the right side of an element. A positive value places it farther from its neighbors, while a negative value places it closer."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/margin-top",
+        "text": "margin-top",
+        "summary": "The margin-top CSS property sets the margin area on the top of an element. A positive value places it farther from its neighbors, while a negative value places it closer."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask",
+        "text": "mask",
+        "summary": "The mask CSS property hides an element (partially or fully) by masking or clipping the image at specific points."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-clip",
+        "text": "mask-clip",
+        "summary": "The mask-clip CSS property determines the area, which is affected by a mask. The painted content of an element must be restricted to this area."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-composite",
+        "text": "mask-composite",
+        "summary": "The mask-composite CSS property represents a compositing operation used on the current mask layer with the mask layers below it."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-image",
+        "text": "mask-image",
+        "summary": "The mask-image CSS property sets the image that is used as mask layer for an element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-mode",
+        "text": "mask-mode",
+        "summary": "The mask-mode CSS property sets whether the mask reference defined by mask-image is treated as a luminance or alpha mask."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-origin",
+        "text": "mask-origin",
+        "summary": "The mask-origin CSS property sets the origin of a mask."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-position",
+        "text": "mask-position",
+        "summary": "The mask-position CSS property sets the initial position, relative to the mask position layer set by mask-origin, for each defined mask image."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-repeat",
+        "text": "mask-repeat",
+        "summary": "The mask-repeat CSS property sets how mask images are repeated. A mask image can be repeated along the horizontal axis, the vertical axis, both axes, or not repeated at all."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-size",
+        "text": "mask-size",
+        "summary": "The mask-size CSS property specifies the sizes of the mask images. The size of the image can be fully or partially constrained in order to preserve its intrinsic ratio."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/mask-type",
+        "text": "mask-type",
+        "summary": "The mask-type CSS property sets whether an SVG &lt;mask&gt; element is used as a luminance or an alpha mask. It applies to the &lt;mask&gt; element itself."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/matrix",
+        "text": "matrix()",
+        "summary": "The matrix() CSS function defines a homogeneous 2D transformation matrix. Its result is a &lt;transform-function&gt; data type."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/matrix3d",
+        "text": "matrix3d()",
+        "summary": "The matrix3d() CSS function defines a 3D transformation as a 4x4 homogeneous matrix. Its result is a &lt;transform-function&gt; data type."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/max",
+        "text": "max()",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/max-height",
+        "text": "max-height",
+        "summary": "The max-height CSS property sets the maximum height of an element. It prevents the used value of the height property from becoming larger than the value specified for max-height."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@viewport/max-height",
+        "text": "max-height (@viewport)",
+        "summary": "The max-height CSS descriptor specifies the maximum height of the viewport of a document defined via the @viewport at-rule."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/max-width",
+        "text": "max-width",
+        "summary": "The max-width CSS property sets the maximum width of an element. It prevents the used value of the width property from becoming larger than the value specified by max-width."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@viewport/max-width",
+        "text": "max-width (@viewport)",
+        "summary": "The max-width CSS descriptor specifies the maximum width of the viewport of a document defined via the @viewport at-rule."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@viewport/max-zoom",
+        "text": "max-zoom (@viewport)",
+        "summary": "The max-zoom CSS descriptor sets the maximum zoom factor of a document defined by the @viewport at-rule. The browser will not zoom in any further than this, whether automatically or at the user's request."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@media",
+        "text": "@media",
+        "summary": "The @media CSS at-rule can be used to apply part of a style sheet based on the result of one or more media queries."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/min",
+        "text": "min()",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/min-block-size",
+        "text": "min-block-size",
+        "summary": "The min-block-size CSS property defines the minimum horizontal or vertical size of an element's block, depending on its writing mode. It corresponds to either the min-width or the min-height property, depending on the value of writing-mode."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/min-height",
+        "text": "min-height",
+        "summary": "The min-height CSS property sets the minimum height of an element. It prevents the used value of the height property from becoming smaller than the value specified for min-height."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@viewport/min-height",
+        "text": "min-height (@viewport)",
+        "summary": "The min-height CSS descriptor specifies the minimum height of the viewport of a document defined via the @viewport at-rule."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/min-inline-size",
+        "text": "min-inline-size",
+        "summary": "The min-inline-size CSS property defines the horizontal or vertical minimal size of an element's block, depending on its writing mode. It corresponds to either the min-width or the min-height property, depending on the value of writing-mode."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/min-width",
+        "text": "min-width",
+        "summary": "The min-width CSS property sets the minimum width of an element. It prevents the used value of the width property from becoming smaller than the value specified for min-width."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@viewport/min-width",
+        "text": "min-width (@viewport)",
+        "summary": "The min-width CSS descriptor specifies the minimum width of the viewport of a document defined via @viewport."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@viewport/min-zoom",
+        "text": "min-zoom (@viewport)",
+        "summary": "The min-zoom CSS descriptor sets the minimum zoom factor of a document defined by the @viewport at-rule. The browser will not zoom out any further than this, whether automatically or at the user's request."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/minmax",
+        "text": "minmax()",
+        "summary": "The minmax() CSS function defines a size range greater than or equal to min and less than or equal to max. It is used with CSS Grids."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode",
+        "text": "mix-blend-mode",
+        "summary": "The mix-blend-mode CSS property sets how an element's content should blend with the content of the element's parent and the element's background."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/length#mm",
+        "text": "mm",
+        "summary": "The &lt;length&gt; CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/time#ms",
+        "text": "ms",
+        "summary": "The &lt;time&gt; CSS data type represents a time value expressed in seconds or milliseconds. It is used in animation, transition, and related properties."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@namespace",
+        "text": "@namespace",
+        "summary": "@namespace is an at-rule that defines XML namespaces to be used in a CSS style sheet. The defined namespaces can be used to restrict the universal, type, and attribute selectors to only select elements within that namespace. The @namespace rule is generally only useful when dealing with documents containing multiple namespaces\u2014such as HTML5 with inline SVG or MathML, or XML that mixes multiple vocabularies."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/negative",
+        "text": "negative (@counter-style)",
+        "summary": "When defining custom counter styles, the negative descriptor lets you alter the representations of negative counter values, by providing a way to specify symbols to be appended or prepended to the counter representation when the value is negative."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:not",
+        "text": ":not",
+        "summary": "The :not() CSS pseudo-class represents elements that do not match a list of selectors. Since it prevents specific items from being selected, it is known as the negation pseudo-class."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child",
+        "text": ":nth-child",
+        "summary": "The :nth-child() CSS pseudo-class matches elements based on their position in a group of siblings."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-child",
+        "text": ":nth-last-child",
+        "summary": "The :nth-last-child() CSS pseudo-class matches elements based on their position among a group of siblings, counting from the end."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-of-type",
+        "text": ":nth-last-of-type",
+        "summary": "The :nth-last-of-type() CSS pseudo-class matches elements of a given type, based on their position among a group of siblings, counting from the end."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type",
+        "text": ":nth-of-type",
+        "summary": "The :nth-of-type() CSS pseudo-class matches elements of a given type, based on their position among a group of siblings."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/number",
+        "text": "&lt;number&gt;",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit",
+        "text": "object-fit",
+        "summary": "The object-fit CSS property sets how the content of a replaced element, such as an &lt;img&gt; or &lt;video&gt;, should be resized to fit its container."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/object-position",
+        "text": "object-position",
+        "summary": "The object-position CSS property specifies the alignment of the selected replaced element's contents within the element's box. Areas of the box which aren't covered by the replaced element's object will show the element's background."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:only-child",
+        "text": ":only-child",
+        "summary": "The :only-child CSS pseudo-class represents an element without any siblings. This is the same as :first-child:last-child or :nth-child(1):nth-last-child(1), but with a lower specificity."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:only-of-type",
+        "text": ":only-of-type",
+        "summary": "The :only-of-type CSS pseudo-class represents an element that has no siblings of the same type."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/opacity",
+        "text": "opacity",
+        "summary": "The opacity CSS property sets the opacity of an element. Opacity is the degree to which content behind an element is hidden, and is the opposite of transparency."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/opacity",
+        "text": "opacity()",
+        "summary": "The opacity() CSS function applies transparency to the samples in the input image. Its result is a &lt;filter-function&gt;."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:optional",
+        "text": ":optional",
+        "summary": "The :optional CSS pseudo-class represents any &lt;input&gt;, &lt;select&gt;, or &lt;textarea&gt; element that does not have the required attribute set on it."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/order",
+        "text": "order",
+        "summary": "The order CSS property sets the order to lay out an item in a flex or grid container. Items in a container are sorted by ascending order value and then by their source code order."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@viewport/orientation",
+        "text": "orientation (@viewport)",
+        "summary": "The orientation CSS descriptor controls the orientation of a document defined by @viewport."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-feature-values#@ornaments",
+        "text": "@ornaments",
+        "summary": "The @font-feature-values CSS at-rule lets you use a common name in the font-variant-alternates property for features activated differently in OpenType. This can help simplify your CSS when using multiple fonts."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-alternates#ornaments()",
+        "text": "ornaments()",
+        "summary": "The font-variant-alternates CSS property controls the usage of alternate glyphs. These alternate glyphs may be referenced by alternative names defined in @font-feature-values."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/orphans",
+        "text": "orphans",
+        "summary": "The orphans CSS property sets the minimum number of lines in a block container that must be shown at the bottom of a page, region, or column."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:out-of-range",
+        "text": ":out-of-range",
+        "summary": "The :out-of-range CSS pseudo-class represents an &lt;input&gt; element whose current value is outside the range limits specified by the min and max attributes."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/outline",
+        "text": "outline",
+        "summary": "The outline CSS property is a shorthand to set various outline properties in a single declaration: outline-style, outline-width, and outline-color."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/outline-color",
+        "text": "outline-color",
+        "summary": "The outline-color CSS property sets the color of an element's outline."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/outline-offset",
+        "text": "outline-offset",
+        "summary": "The outline-offset CSS property sets the amount of space between an outline and the edge or border of an element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/outline-style",
+        "text": "outline-style",
+        "summary": "The outline-style CSS property sets the style of an element's outline. An outline is a line that is drawn around an element, outside the border."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/outline-width",
+        "text": "outline-width",
+        "summary": "The outline-width CSS property sets the thickness of an element's outline. An outline is a line that is drawn around an element, outside the border."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/overflow",
+        "text": "overflow",
+        "summary": "The overflow CSS property sets what to do when an element's content is too big to fit in its block formatting context. It is a shorthand for overflow-x and overflow-y."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap",
+        "text": "overflow-wrap",
+        "summary": "The overflow-wrap CSS property applies to inline elements, setting whether the browser should insert line breaks within an otherwise unbreakable string to prevent text from overflowing its line box."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x",
+        "text": "overflow-x",
+        "summary": "The overflow-x CSS property sets what shows when content overflows a block-level element's left and right edges. This may be nothing, a scroll bar, or the overflow content."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-y",
+        "text": "overflow-y",
+        "summary": "The overflow-y CSS property sets what shows when content overflows a block-level element's top and bottom edges. This may be nothing, a scroll bar, or the overflow content."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/pad",
+        "text": "pad (@counter-style)",
+        "summary": "The pad descriptor can be used with custom counter style definitions when you need the marker representations to have a minimum length. If a marker representation is smaller than the specified pad length, then the marker will be padded with the specified pad symbol. Marker representations longer than the pad length are constructed as normal. Pad descriptor takes the minimum marker length as an integer and a symbol to be used for padding as the second parameter. A common usage of the pad descriptor is when you need your list to start numbering from 01 and go through 02, 03 and so on, instead of just 1, 2, 3..."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/padding",
+        "text": "padding",
+        "summary": "The padding CSS property sets the padding area on all four sides of an element. It is a shorthand for padding-top, padding-right, padding-bottom, and padding-left."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/padding-block",
+        "text": "padding-block",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/padding-block-end",
+        "text": "padding-block-end",
+        "summary": "The padding-block-end CSS property defines the logical block end padding of an element, which maps to a physical padding depending on the element's writing mode, directionality, and text orientation. It corresponds to the padding-top,\u00a0padding-right,\u00a0padding-bottom, or padding-left property depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/padding-block-start",
+        "text": "padding-block-start",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/padding-bottom",
+        "text": "padding-bottom",
+        "summary": "The padding-bottom CSS property\u00a0sets the height of the\u00a0padding area on the bottom of an element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/padding-inline",
+        "text": "padding-inline",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/padding-inline-end",
+        "text": "padding-inline-end",
+        "summary": "The padding-inline-end CSS property defines the logical inline end padding of an element, which maps to a physical padding depending on the element's writing mode, directionality, and text orientation. It corresponds to the padding-top,\u00a0padding-right,\u00a0padding-bottom, or padding-left property depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/padding-inline-start",
+        "text": "padding-inline-start",
+        "summary": "The padding-inline-start CSS property defines the logical inline start padding of an element, which maps to a physical padding depending on the element's writing mode, directionality, and text orientation. It corresponds to the padding-top,\u00a0padding-right,\u00a0padding-bottom, or padding-left property depending on the values defined for writing-mode, direction, and text-orientation."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/padding-left",
+        "text": "padding-left",
+        "summary": "The padding-left\u00a0CSS property\u00a0sets the width of the\u00a0padding area on the top of an element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/padding-right",
+        "text": "padding-right",
+        "summary": "The padding-right CSS property\u00a0sets the width of the\u00a0padding area on the right of an element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/padding-top",
+        "text": "padding-top",
+        "summary": "The padding-top CSS property sets the height of the padding area on the top of an element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@page",
+        "text": "@page",
+        "summary": "The @page CSS at-rule is used to modify some CSS properties when printing a document. You can't change all CSS properties with @page. You can only change the margins, orphans, widows, and page breaks of the document. Attempts to change any other CSS properties will be ignored."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/page-break-after",
+        "text": "page-break-after",
+        "summary": "The page-break-after CSS property adjusts page breaks after the current element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/page-break-before",
+        "text": "page-break-before",
+        "summary": "The page-break-before CSS property adjusts page breaks before the current element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/page-break-inside",
+        "text": "page-break-inside",
+        "summary": "The page-break-inside CSS property adjusts page breaks inside the current element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/length#pc",
+        "text": "pc",
+        "summary": "The &lt;length&gt; CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/percentage",
+        "text": "&lt;percentage&gt;",
+        "summary": "The &lt;percentage&gt; CSS data type represents a percentage value. It is often used to define a size as relative to an element's parent object. Numerous properties can use percentages, such as width, height, margin, padding, and font-size."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/perspective",
+        "text": "perspective",
+        "summary": "The perspective CSS property determines the distance between the z=0 plane and the user in order to give a 3D-positioned element some perspective. Each 3D element with z&gt;0 becomes larger; each 3D-element with z&lt;0 becomes smaller. The strength of the effect is determined by the value of this property."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/perspective",
+        "text": "perspective()",
+        "summary": "The perspective() CSS function defines a transformation that sets the distance between the user and the z=0 plane. Its result is a &lt;transform-function&gt; data type."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/perspective-origin",
+        "text": "perspective-origin",
+        "summary": "The perspective-origin CSS property determines the position at which the viewer is looking. It is used as the vanishing point by the perspective property."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/place-content",
+        "text": "place-content",
+        "summary": "The place-content CSS property is a shorthand for align-content and justify-content. It\u00a0can be used in any layout method which utilizes both of these alignment values."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/place-items",
+        "text": "place-items",
+        "summary": "The CSS place-items shorthand property sets the align-items and justify-items properties, respectively. If the second value is not set, the first value is also used for it."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/place-self",
+        "text": "place-self",
+        "summary": "The place-self CSS property is a shorthand property sets both the align-self and justify-self properties. The first value is the align-self property value, the second the justify-self one. If the second value is not present, the first value is also used for it."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder",
+        "text": "::placeholder",
+        "summary": "The ::placeholder CSS pseudo-element represents the placeholder text of a form element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events",
+        "text": "pointer-events",
+        "summary": "The  pointer-events CSS property sets under what circumstances (if any) a particular graphic element can become the target of pointer events."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape#polygon()",
+        "text": "polygon()",
+        "summary": "The &lt;basic-shape&gt; CSS data type represents a shape used in the clip-path, shape-outside, and\u00a0offset-path properties."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/position_value",
+        "text": "&lt;position&gt;",
+        "summary": "The &lt;position&gt; CSS data type denotes a two-dimensional coordinate used to set a location relative to an element box. It is used in the background-position property."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/position",
+        "text": "position",
+        "summary": "The position CSS property sets how an element is positioned in a document. The top, right, bottom, and left properties determine the final location of positioned elements."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/prefix",
+        "text": "prefix (@counter-style)",
+        "summary": "The prefix descriptor of the @counter-style rule specifies content that will be prepended to the marker representation. If not specified, the default value will be \"\" (an empty string)."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/length#pt",
+        "text": "pt",
+        "summary": "The &lt;length&gt; CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/length#px",
+        "text": "px",
+        "summary": "The &lt;length&gt; CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/length#Q",
+        "text": "Q",
+        "summary": "The &lt;length&gt; CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/quotes",
+        "text": "quotes",
+        "summary": "The quotes CSS property sets how quotation marks appear."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/angle#rad",
+        "text": "rad",
+        "summary": "The &lt;angle&gt; CSS data type represents an angle value expressed in degrees, gradians, radians, or turns. It is used, for example, in &lt;gradient&gt;s and in some transform functions."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/radial-gradient",
+        "text": "radial-gradient()",
+        "summary": "The radial-gradient() CSS function creates an image consisting of a progressive transition between two or more colors that radiate from an origin. Its shape may be a circle or an ellipse. The function's result is an object of the &lt;gradient&gt; data type, which is a special kind of &lt;image&gt;."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/range",
+        "text": "range (@counter-style)",
+        "summary": "When defining custom counter styles, the range descriptor lets the author specify a range of counter values over which the style is applied. If a counter value is outside the specified range, then the fallback style will be used to construct the representation of that marker. Value of the range descriptor can be either auto or a comma separated list of lower and upper bounds specified as integers."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/ratio",
+        "text": "&lt;ratio&gt;",
+        "summary": "The &lt;ratio&gt; CSS data type, used for describing aspect ratios in media queries, denotes the proportion between two unitless values."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:read-only",
+        "text": ":read-only",
+        "summary": "The :read-only CSS pseudo-class represents an element (such as\u00a0input\u00a0or textarea) that is not editable by the user."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:read-write",
+        "text": ":read-write",
+        "summary": "The :read-write CSS pseudo-class represents an element (such as input or textarea) that is editable by the user."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/shape#rect()",
+        "text": "rect()",
+        "summary": "The &lt;shape&gt; CSS data type defines the specific form (shape) of a region. The region represents the part of an element to which the clip property applies."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/length#rem",
+        "text": "rem",
+        "summary": "The &lt;length&gt; CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/repeat",
+        "text": "repeat()",
+        "summary": "The repeat() CSS function represents a repeated fragment of the track list, allowing a large number of columns or rows that exhibit a recurring pattern to be written in a more compact form."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/repeating-linear-gradient",
+        "text": "repeating-linear-gradient()",
+        "summary": "The repeating-linear-gradient() CSS function creates an image consisting of repeating linear gradients. It is similar to linear-gradient() and takes the same arguments, but it repeats the color stops infinitely in all directions so as to cover its entire container. The function's result is an object of the &lt;gradient&gt; data type, which is a special kind of &lt;image&gt;."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/repeating-radial-gradient",
+        "text": "repeating-radial-gradient()",
+        "summary": "The repeating-radial-gradient() CSS function creates an image consisting of repeating gradients that radiate from an origin. It is similar to radial-gradient() and takes the same arguments, but it repeats the color stops infinitely in all directions so as to cover its entire container, similar to repeating-linear-gradient() . The function's result is an object of the &lt;gradient&gt; data type, which is a special kind of &lt;image&gt;."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:required",
+        "text": ":required",
+        "summary": "The :required CSS pseudo-class represents any &lt;input&gt;, &lt;select&gt;, or &lt;textarea&gt;\u00a0element that has the required attribute set on it."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/resize",
+        "text": "resize",
+        "summary": "The resize CSS property sets whether an element is resizable, and if so, in which directions."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/resolution",
+        "text": "&lt;resolution&gt;",
+        "summary": "The &lt;resolution&gt; CSS data type, used for describing resolutions in media queries, denotes the pixel density of an output device, i.e., its resolution."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/revert",
+        "text": "revert",
+        "summary": "The revert CSS keyword rolls back the cascade so that a property takes on the value it would have had if there were no styles in the current style origin (author, user, or user-agent). Thus, it resets the property to the default value established by the user-agent stylesheet (or by user styles, if any exist). It can be applied to any CSS property, including the CSS shorthand all."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#rgb()",
+        "text": "rgb()",
+        "summary": "The &lt;color&gt; CSS data type represents a color in the sRGB color space. A &lt;color&gt; may also include an alpha-channel transparency value, indicating how the color should composite with its background."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#rgba()",
+        "text": "rgba()",
+        "summary": "The &lt;color&gt; CSS data type represents a color in the sRGB color space. A &lt;color&gt; may also include an alpha-channel transparency value, indicating how the color should composite with its background."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:right",
+        "text": ":right",
+        "summary": "The :right CSS pseudo-class, used with the @page at-rule, represents all right-hand pages of a printed document."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/right",
+        "text": "right",
+        "summary": "The right CSS property participates in specifying the horizontal position of a positioned element. It has no effect on non-positioned elements."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@page#page-margin-box-type",
+        "text": "@right-bottom",
+        "summary": "The @page CSS at-rule is used to modify some CSS properties when printing a document. You can't change all CSS properties with @page. You can only change the margins, orphans, widows, and page breaks of the document. Attempts to change any other CSS properties will be ignored."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:root",
+        "text": ":root",
+        "summary": "The :root CSS  pseudo-class matches the root element of a tree representing the document. In HTML, :root represents the &lt;html&gt; element and is identical to the selector html, except that its specificity is higher."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/rotate",
+        "text": "rotate",
+        "summary": "The rotate CSS property allows you to specify rotation transforms individually and independently of the transform property. This maps better to typical user interface usage, and saves having to remember the exact order of transform functions to specify in the transform property."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate",
+        "text": "rotate()",
+        "summary": "The rotate() CSS function defines a transformation that rotates an element around a fixed point on the 2D plane, without deforming it. Its result is a &lt;transform-function&gt; data type."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d",
+        "text": "rotate3d()",
+        "summary": "The rotate3d() CSS function defines a transformation that rotates an element around a fixed axis in 3D space, without deforming it. Its result is a &lt;transform-function&gt; data type."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotateX",
+        "text": "rotateX()",
+        "summary": "The rotateX() CSS function defines a transformation that rotates an element around the abscissa (horizontal axis) without deforming it. Its result is a &lt;transform-function&gt; data type."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotateY",
+        "text": "rotateY()",
+        "summary": "The rotateY() CSS function defines a transformation that rotates an element around the ordinate (vertical axis) without deforming it. Its result is a &lt;transform-function&gt; data type."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotateZ",
+        "text": "rotateZ()",
+        "summary": "The rotateZ() CSS function defines a transformation that rotates an element around the z-axis without deforming it. Its result is a &lt;transform-function&gt; data type."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/row-gap",
+        "text": "row-gap",
+        "summary": "The row-gap CSS property sets the size of the gap (gutter) between an element's grid rows."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/time#s",
+        "text": "s",
+        "summary": "The &lt;time&gt; CSS data type represents a time value expressed in seconds or milliseconds. It is used in animation, transition, and related properties."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/saturate",
+        "text": "saturate()",
+        "summary": "The saturate() CSS function super-saturates or desaturates the input image. Its result is a &lt;filter-function&gt;."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scale",
+        "text": "scale",
+        "summary": "The scale CSS property allows you to specify scale transforms individually and independantly of the transform property. This maps better to typical user interface usage, and saves having to remember the exact order of transform functions to specify in the transform value."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale",
+        "text": "scale()",
+        "summary": "The scale() CSS function defines a transformation that resizes an element on the 2D plane. Because the amount of scaling is defined by a vector, it can resize the horizontal and vertical dimensions at different scales. Its result is a &lt;transform-function&gt; data type."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale3d",
+        "text": "scale3d()",
+        "summary": "The scale3d() CSS function defines a transformation that resizes an element in 3D space. Because the amount of scaling is defined by a vector, it can resize different dimensions at different scales. Its result is a &lt;transform-function&gt; data type."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleX",
+        "text": "scaleX()",
+        "summary": "The scaleX() CSS function defines a transformation that resizes an element along the x-axis (horizontally). Its result is a &lt;transform-function&gt; data type."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleY",
+        "text": "scaleY()",
+        "summary": "The scaleY() CSS function defines a transformation that resizes an element along the y-axis (vertically). Its result is a &lt;transform-function&gt; data type."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scaleZ",
+        "text": "scaleZ()",
+        "summary": "The scaleZ() CSS function defines a transformation that resizes an element along the z-axis. Its result is a &lt;transform-function&gt; data type."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:scope",
+        "text": ":scope",
+        "summary": "The :scope CSS pseudo-class represents elements that are a reference point for selectors to match against."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior",
+        "text": "scroll-behavior",
+        "summary": "The scroll-behavior CSS property sets the behavior for a scrolling box when scrolling is triggered by the navigation or CSSOM scrolling APIs."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin",
+        "text": "scroll-margin",
+        "summary": "The scroll-margin property is a shorthand\u00a0property which sets all of the scroll-margin longhands, assigning values much like the margin property does for the margin-* longhands."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-block",
+        "text": "scroll-margin-block",
+        "summary": "The scroll-margin-block\u00a0property is a shorthand\u00a0property which sets the scroll-margin\u00a0longhands in the block dimension."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-block-end",
+        "text": "scroll-margin-block-end",
+        "summary": "The scroll-margin-block-end\u00a0property defines the\u00a0margin of\u00a0the scroll snap area at the end\u00a0of the block dimension\u00a0that is used for snapping this box to the snapport. The scroll snap area is determined by taking the transformed border box, finding its rectangular bounding box (axis-aligned in the scroll container\u2019s coordinate space), then adding the specified outsets."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-block-start",
+        "text": "scroll-margin-block-start",
+        "summary": "The scroll-margin-block-start\u00a0property defines the\u00a0margin of\u00a0the scroll snap area at the start of the block dimension\u00a0that is used for snapping this box to the snapport. The scroll snap area is determined by taking the transformed border box, finding its rectangular bounding box (axis-aligned in the scroll container\u2019s coordinate space), then adding the specified outsets."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-bottom",
+        "text": "scroll-margin-bottom",
+        "summary": "The scroll-margin-bottom\u00a0property defines the bottom\u00a0margin of\u00a0the scroll snap area that is used for snapping this box to the snapport. The scroll snap area is determined by taking the transformed border box, finding its rectangular bounding box (axis-aligned in the scroll container\u2019s coordinate space), then adding the specified outsets."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-inline",
+        "text": "scroll-margin-inline",
+        "summary": "The scroll-margin-inline\u00a0property is a shorthand\u00a0property which sets the scroll-margin\u00a0longhands in the inline\u00a0dimension."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-inline-end",
+        "text": "scroll-margin-inline-end",
+        "summary": "The scroll-margin-inline-end\u00a0property defines the\u00a0margin of\u00a0the scroll snap area at the end\u00a0of the inline\u00a0dimension\u00a0that is used for snapping this box to the snapport. The scroll snap area is determined by taking the transformed border box, finding its rectangular bounding box (axis-aligned in the scroll container\u2019s coordinate space), then adding the specified outsets."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-inline-start",
+        "text": "scroll-margin-inline-start",
+        "summary": "The scroll-margin-inline-start\u00a0property defines the\u00a0margin of\u00a0the scroll snap area at the start of the inline\u00a0dimension\u00a0that is used for snapping this box to the snapport. The scroll snap area is determined by taking the transformed border box, finding its rectangular bounding box (axis-aligned in the scroll container\u2019s coordinate space), then adding the specified outsets."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-left",
+        "text": "scroll-margin-left",
+        "summary": "The scroll-margin-left\u00a0property defines the left margin of\u00a0the scroll snap area that is used for snapping this box to the snapport. The scroll snap area is determined by taking the transformed border box, finding its rectangular bounding box (axis-aligned in the scroll container\u2019s coordinate space), then adding the specified outsets."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-right",
+        "text": "scroll-margin-right",
+        "summary": "The scroll-margin-right\u00a0property defines the right\u00a0margin of\u00a0the scroll snap area that is used for snapping this box to the snapport. The scroll snap area is determined by taking the transformed border box, finding its rectangular bounding box (axis-aligned in the scroll container\u2019s coordinate space), then adding the specified outsets."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-margin-top",
+        "text": "scroll-margin-top",
+        "summary": "The scroll-margin-top\u00a0property defines the top margin of\u00a0the scroll snap area that is used for snapping this box to the snapport. The scroll snap area is determined by taking the transformed border box, finding its rectangular bounding box (axis-aligned in the scroll container\u2019s coordinate space), then adding the specified outsets."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding",
+        "text": "scroll-padding",
+        "summary": "The scroll-padding property is a shorthand\u00a0property which sets all of the scroll-padding longhands, assigning values much like the padding property does for the padding-* longhands.\n\n The scroll-padding properties define offsets for the\u00a0optimal viewing region\u00a0of the scrollport: the region used as the target region for placing things in view of the user. This allows the author to exclude regions of the scrollport that are obscured by other content (such as fixed-positioned toolbars or sidebars) or simply to put more breathing room between a targetted element and the edges of the scrollport."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-block",
+        "text": "scroll-padding-block",
+        "summary": "The scroll-padding-block property is a shorthand\u00a0property which sets\u00a0the scroll-padding longhands for the block dimension.\n\n The scroll-padding properties define offsets for the\u00a0optimal viewing region\u00a0of the scrollport: the region used as the target region for placing things in view of the user. This allows the author to exclude regions of the scrollport that are obscured by other content (such as fixed-positioned toolbars or sidebars) or simply to put more breathing room between a targetted element and the edges of the scrollport."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-block-end",
+        "text": "scroll-padding-block-end",
+        "summary": "The scroll-padding-block-end\u00a0property\u00a0defines offsets for the end\u00a0edge in the block\u00a0dimension\u00a0of the\u00a0optimal viewing region\u00a0of the scrollport: the region used as the target region for placing things in view of the user. This allows the author to exclude regions of the scrollport that are obscured by other content (such as fixed-positioned toolbars or sidebars) or simply to put more breathing room between a targetted element and the edges of the scrollport."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-block-start",
+        "text": "scroll-padding-block-start",
+        "summary": "The scroll-padding-block-start\u00a0property\u00a0defines offsets for the start edge in the block\u00a0dimension\u00a0of the\u00a0optimal viewing region\u00a0of the scrollport: the region used as the target region for placing things in view of the user. This allows the author to exclude regions of the scrollport that are obscured by other content (such as fixed-positioned toolbars or sidebars) or simply to put more breathing room between a targetted element and the edges of the scrollport."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-bottom",
+        "text": "scroll-padding-bottom",
+        "summary": "The scroll-padding-bottom\u00a0property\u00a0defines offsets for the bottom\u00a0of the\u00a0optimal viewing region\u00a0of the scrollport: the region used as the target region for placing things in view of the user. This allows the author to exclude regions of the scrollport that are obscured by other content (such as fixed-positioned toolbars or sidebars) or simply to put more breathing room between a targetted element and the edges of the scrollport."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-inline",
+        "text": "scroll-padding-inline",
+        "summary": "The scroll-padding-inline\u00a0property is a shorthand\u00a0property which sets\u00a0the scroll-padding longhands for the inline\u00a0dimension.\n\n The scroll-padding properties define offsets for the\u00a0optimal viewing region\u00a0of the scrollport: the region used as the target region for placing things in view of the user. This allows the author to exclude regions of the scrollport that are obscured by other content (such as fixed-positioned toolbars or sidebars) or simply to put more breathing room between a targetted element and the edges of the scrollport."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-inline-end",
+        "text": "scroll-padding-inline-end",
+        "summary": "The scroll-padding-inline-end\u00a0property\u00a0defines offsets for the end\u00a0edge in the inline\u00a0dimension\u00a0of the\u00a0optimal viewing region\u00a0of the scrollport: the region used as the target region for placing things in view of the user. This allows the author to exclude regions of the scrollport that are obscured by other content (such as fixed-positioned toolbars or sidebars) or simply to put more breathing room between a targetted element and the edges of the scrollport."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-inline-start",
+        "text": "scroll-padding-inline-start",
+        "summary": "The scroll-padding-inline-start\u00a0property\u00a0defines offsets for the start edge in the inline dimension\u00a0of the\u00a0optimal viewing region\u00a0of the scrollport: the region used as the target region for placing things in view of the user. This allows the author to exclude regions of the scrollport that are obscured by other content (such as fixed-positioned toolbars or sidebars) or simply to put more breathing room between a targetted element and the edges of the scrollport."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-left",
+        "text": "scroll-padding-left",
+        "summary": "The scroll-padding-left\u00a0property\u00a0defines offsets for the left\u00a0of the\u00a0optimal viewing region\u00a0of the scrollport: the region used as the target region for placing things in view of the user. This allows the author to exclude regions of the scrollport that are obscured by other content (such as fixed-positioned toolbars or sidebars) or simply to put more breathing room between a targetted element and the edges of the scrollport."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-right",
+        "text": "scroll-padding-right",
+        "summary": "The scroll-padding-right\u00a0property\u00a0defines offsets for the right\u00a0of the\u00a0optimal viewing region\u00a0of the scrollport: the region used as the target region for placing things in view of the user. This allows the author to exclude regions of the scrollport that are obscured by other content (such as fixed-positioned toolbars or sidebars) or simply to put more breathing room between a targetted element and the edges of the scrollport."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-padding-top",
+        "text": "scroll-padding-top",
+        "summary": "The scroll-padding-top property\u00a0defines offsets for the top of the\u00a0optimal viewing region\u00a0of the scrollport: the region used as the target region for placing things in view of the user. This allows the author to exclude regions of the scrollport that are obscured by other content (such as fixed-positioned toolbars or sidebars) or simply to put more breathing room between a targetted element and the edges of the scrollport."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-align",
+        "text": "scroll-snap-align",
+        "summary": "The scroll-snap-align property specifies the box\u2019s snap position as an alignment of its snap area (as the alignment subject) within its snap container\u2019s snapport (as the alignment container). The two values specify the snapping alignment in the block axis and inline axis, respectively. If only one value is specified, the second value defaults to the same value."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-stop",
+        "text": "scroll-snap-stop",
+        "summary": "The scroll-snap-stop CSS property defines whether the scroll container is allowed to \"pass over\" possible snap positions."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type",
+        "text": "scroll-snap-type",
+        "summary": "The scroll-snap-type CSS property sets how strictly snap points are enforced on the scroll container in case there is one."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-color",
+        "text": "scrollbar-color",
+        "summary": "The scrollbar-color CSS property sets the color of the scrollbar track and thumb."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-width",
+        "text": "scrollbar-width",
+        "summary": "The scrollbar-width property allows the author to set the maximum thickness of an element\u2019s scrollbars when they are shown."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/::selection",
+        "text": "::selection",
+        "summary": "The ::selection CSS pseudo-element applies styles to the part of a document that has been highlighted by the user (such as clicking and dragging the mouse across text)."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/sepia",
+        "text": "sepia()",
+        "summary": "The sepia() CSS function converts the input image to sepia, giving it a warmer, more yellow/brown appearance. Its result is a &lt;filter-function&gt;."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/shape",
+        "text": "&lt;shape&gt;",
+        "summary": "The &lt;shape&gt; CSS data type defines the specific form (shape) of a region. The region represents the part of an element to which the clip property applies."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/shape-image-threshold",
+        "text": "shape-image-threshold",
+        "summary": "The shape-image-threshold CSS property sets the alpha channel threshold used to extract the shape using an image as the value for shape-outside."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/shape-margin",
+        "text": "shape-margin",
+        "summary": "The shape-margin CSS property sets a margin for a CSS shape created using shape-outside."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/shape-outside",
+        "text": "shape-outside",
+        "summary": "The shape-outside CSS property defines a shape\u2014which may be non-rectangular\u2014around which adjacent inline content should wrap. By default, inline content wraps around its margin box; shape-outside provides a way to customize this wrapping, making it possible to wrap text around complex objects rather than simple boxes."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/skew",
+        "text": "skew()",
+        "summary": "The skew() CSS function defines a transformation that skews an element on the 2D plane. Its result is a &lt;transform-function&gt; data type."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/skewX",
+        "text": "skewX()",
+        "summary": "The skewX() CSS function defines a transformation that skews an element in the horizontal direction on the 2D plane. Its result is a &lt;transform-function&gt; data type."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/skewY",
+        "text": "skewY()",
+        "summary": "The skewY() CSS function defines a transformation that skews an element in the vertical direction on the 2D plane. Its result is a &lt;transform-function&gt; data type."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/::slotted",
+        "text": "::slotted",
+        "summary": "The ::slotted() CSS pseudo-element represents any element that has been placed into a slot inside an HTML template (see Using templates and slots for more information)."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/speak-as",
+        "text": "speak-as (@counter-style)",
+        "summary": "The speak-as descriptor specifies how a counter symbol constructed with a given @counter-style will be represented in the spoken form. For example, an author can specify a counter symbol to be either spoken as its numerical value or just represented with an audio cue."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/src",
+        "text": "src (@font-face)",
+        "summary": "The src CSS descriptor of the @font-face rule specifies the resource containing font data. It is required for the @font-face rule to be valid."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/single-transition-timing-function#steps()",
+        "text": "steps()",
+        "summary": "The &lt;timing-function&gt; CSS data type denotes a mathematical function that describes how fast one-dimensional values change during animations. This lets you\u00a0vary the animation's speed over the course of its duration."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/string",
+        "text": "&lt;string&gt;",
+        "summary": "The &lt;string&gt; CSS data type represents a sequence of characters. Strings are used in numerous CSS properties, such as content, font-family, and quotes."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-feature-values#@styleset",
+        "text": "@styleset",
+        "summary": "The @font-feature-values CSS at-rule lets you use a common name in the font-variant-alternates property for features activated differently in OpenType. This can help simplify your CSS when using multiple fonts."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-alternates#styleset()",
+        "text": "styleset()",
+        "summary": "The font-variant-alternates CSS property controls the usage of alternate glyphs. These alternate glyphs may be referenced by alternative names defined in @font-feature-values."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-feature-values#@stylistic",
+        "text": "@stylistic",
+        "summary": "The @font-feature-values CSS at-rule lets you use a common name in the font-variant-alternates property for features activated differently in OpenType. This can help simplify your CSS when using multiple fonts."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-alternates#stylistic()",
+        "text": "stylistic()",
+        "summary": "The font-variant-alternates CSS property controls the usage of alternate glyphs. These alternate glyphs may be referenced by alternative names defined in @font-feature-values."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/suffix",
+        "text": "suffix (@counter-style)",
+        "summary": "The suffix descriptor of the@counter-style rule specifies content that will be appended to the marker representation. If not specified, the default value will be \"\\2E\\20\" (\". \", a full stop followed by a space)."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@supports",
+        "text": "@supports",
+        "summary": "The @supports CSS at-rule lets you specify declarations that depend on a browser's support for one or more specific CSS features. This is called a feature query. The rule may be placed at the top level of your code or nested inside any other conditional group at-rule."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-feature-values#@swash",
+        "text": "@swash",
+        "summary": "The @font-feature-values CSS at-rule lets you use a common name in the font-variant-alternates property for features activated differently in OpenType. This can help simplify your CSS when using multiple fonts."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-alternates#swash()",
+        "text": "swash()",
+        "summary": "The font-variant-alternates CSS property controls the usage of alternate glyphs. These alternate glyphs may be referenced by alternative names defined in @font-feature-values."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/symbols",
+        "text": "symbols (@counter-style)",
+        "summary": "The symbols CSS descriptor is used to specify the symbols that the specified counter system will use to construct counter representations. A symbol can be a string, image, or identifier. It is used within the @counter-style at-rule."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/symbols",
+        "text": "symbols()",
+        "summary": "The symbols() CSS function lets you define counter styles inline, directly as the value of a property such as list-style. Unlike @counter-style, symbols() is anonymous (i.e., it can only be used once). Although less powerful, it is shorter and easier to write than @counter-style."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style/system",
+        "text": "system (@counter-style)",
+        "summary": "The system descriptor specifies the algorithm to be used for converting the integer value of a counter to a string representation. It is used in a @counter-style to define the behavior of the defined style."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/tab-size",
+        "text": "tab-size",
+        "summary": "The tab-size CSS property is used to customize the width of a tab (U+0009) character."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/table-layout",
+        "text": "table-layout",
+        "summary": "The table-layout CSS property sets the algorithm used to lay out &lt;table&gt; cells, rows, and columns."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:target",
+        "text": ":target",
+        "summary": "The :target CSS pseudo-class represents a unique element (the target element) with an id matching the URL's fragment."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSSnew",
+        "text": "target-counter()",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSSnew",
+        "text": "target-counters()",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSSnew",
+        "text": "target-text()",
+        "summary": ""
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-align",
+        "text": "text-align",
+        "summary": "The text-align CSS property sets the horizontal alignment of a\u00a0block element or table-cell box. This means it works like vertical-align but in the horizontal direction."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-align-last",
+        "text": "text-align-last",
+        "summary": "The text-align-last CSS property sets how the last line of a block or a line, right before a forced line break, is aligned."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-combine-upright",
+        "text": "text-combine-upright",
+        "summary": "The text-combine-upright CSS property sets the combination of characters into the space of a single character. If the combined text is wider than 1em, the user agent must fit the contents within 1em. The resulting composition is treated as a single upright glyph for layout and decoration. This property only has an effect in vertical writing modes."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration",
+        "text": "text-decoration",
+        "summary": "The text-decoration CSS property sets the appearance of decorative lines on text. It is a shorthand for text-decoration-line, text-decoration-color, and text-decoration-style."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-color",
+        "text": "text-decoration-color",
+        "summary": "The text-decoration-color CSS property sets the color of decorations added to text by text-decoration-line."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-line",
+        "text": "text-decoration-line",
+        "summary": "The text-decoration-line CSS property sets the kind of decoration that is used on text in an element, such as an underline or overline."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-style",
+        "text": "text-decoration-style",
+        "summary": "The text-decoration-style CSS property sets the style of the lines specified by text-decoration-line. The style applies to all lines that are set with text-decoration-line."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis",
+        "text": "text-emphasis",
+        "summary": "The text-emphasis CSS property applies emphasis marks to text (except spaces and control characters). It is a shorthand for text-emphasis-style and text-emphasis-color."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis-color",
+        "text": "text-emphasis-color",
+        "summary": "The text-emphasis-color CSS property sets the color of emphasis marks. This value can also be set using the text-emphasis shorthand."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis-position",
+        "text": "text-emphasis-position",
+        "summary": "The text-emphasis-position CSS property sets where emphasis marks are drawn. Like ruby text, if there isn't enough room for emphasis marks, the line height is increased."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-emphasis-style",
+        "text": "text-emphasis-style",
+        "summary": "The text-emphasis-style CSS property sets the appearance of emphasis marks. It can also be set, and reset, using the text-emphasis shorthand."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent",
+        "text": "text-indent",
+        "summary": "The text-indent CSS property sets the length of empty space (indentation) that is put before lines of text in a block."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-justify",
+        "text": "text-justify",
+        "summary": "The text-justify CSS property sets what type of justification should be applied to text when text-align: justify; is set on an element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-orientation",
+        "text": "text-orientation",
+        "summary": "The text-orientation CSS property sets the orientation of the text characters in a line. It only affects text in vertical mode (when writing-mode is not horizontal-tb). It is useful for controlling the display of languages that use vertical script, and also for making vertical table headers."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-overflow",
+        "text": "text-overflow",
+        "summary": "The text-overflow CSS property sets how hidden overflow content is signaled to users. It can be clipped, display an ellipsis ('\u2026'), or display a custom string."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-rendering",
+        "text": "text-rendering",
+        "summary": "The text-rendering CSS property provides information to the rendering engine about what to optimize for when rendering text."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow",
+        "text": "text-shadow",
+        "summary": "The text-shadow CSS property adds shadows to text. It accepts a comma-separated list of shadows to be applied to the text and any of its decorations. Each shadow is described by some combination of X and Y offsets from the element, blur radius, and color."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform",
+        "text": "text-transform",
+        "summary": "The text-transform CSS property specifies how to capitalize an element's text. It can be used to make text appear in all-uppercase or all-lowercase, or with each word capitalized. It also can help improve legibility for ruby."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-underline-position",
+        "text": "text-underline-position",
+        "summary": "The text-underline-position CSS property specifies the position of the underline which is set using the text-decoration property's underline value."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/time",
+        "text": "&lt;time&gt;",
+        "summary": "The &lt;time&gt; CSS data type represents a time value expressed in seconds or milliseconds. It is used in animation, transition, and related properties."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/time-percentage",
+        "text": "&lt;time-percentage&gt;",
+        "summary": "The &lt;time-percentage&gt; CSS data type represents a value that can be either a &lt;time&gt; or a &lt;percentage&gt;."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function",
+        "text": "&lt;timing-function&gt;",
+        "summary": "The &lt;timing-function&gt; CSS data type denotes a mathematical function that describes how fast one-dimensional values change during animations. This lets you\u00a0vary the animation's speed over the course of its duration."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/top",
+        "text": "top",
+        "summary": "The top CSS property participates in specifying the vertical position of a positioned element. It has no effect on non-positioned elements."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@page#page-margin-box-type",
+        "text": "@top-center",
+        "summary": "The @page CSS at-rule is used to modify some CSS properties when printing a document. You can't change all CSS properties with @page. You can only change the margins, orphans, widows, and page breaks of the document. Attempts to change any other CSS properties will be ignored."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action",
+        "text": "touch-action",
+        "summary": "The touch-action CSS property sets how a region can be manipulated by a touchscreen user (for example, by zooming features built into the browser)."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+        "text": "transform",
+        "summary": "The transform CSS property lets you rotate, scale, skew, or translate an element. It modifies the coordinate space of the CSS visual formatting model."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-box",
+        "text": "transform-box",
+        "summary": "The transform-box CSS property defines the layout box to which the transform and transform-origin properties relate."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function",
+        "text": "&lt;transform-function&gt;",
+        "summary": "The &lt;transform-function&gt; CSS data type represents a transformation that affects an element's appearance. Transformation functions can rotate, resize, distort, or move an element in 2D or 3D space. It is used in the transform property."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin",
+        "text": "transform-origin",
+        "summary": "The transform-origin CSS property sets the origin for an element's transformations."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style",
+        "text": "transform-style",
+        "summary": "The transform-style CSS property sets whether children of an element are positioned in the 3D space or are flattened in the plane of the element."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transition",
+        "text": "transition",
+        "summary": "The transition CSS property is a shorthand property for transition-property, transition-duration, transition-timing-function, and transition-delay."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay",
+        "text": "transition-delay",
+        "summary": "The transition-delay CSS property specifies the duration to wait before starting a property's transition effect when its value changes."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration",
+        "text": "transition-duration",
+        "summary": "The transition-duration CSS property sets the length of time a transition animation should take to complete. By default, the value is 0s, meaning that no animation will occur."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property",
+        "text": "transition-property",
+        "summary": "The transition-property CSS property sets the CSS properties to which a transition effect should be applied."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function",
+        "text": "transition-timing-function",
+        "summary": "The transition-timing-function CSS property sets how intermediate values are calculated for CSS properties being affected by a transition effect."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/translate",
+        "text": "translate",
+        "summary": "The translate CSS property allows you to specify translation transforms individually and independently of the transform property. This maps better to typical user interface usage, and saves having to remember the exact order of transform functions to specify in the transform value."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate",
+        "text": "translate()",
+        "summary": "The translate() CSS function repositions an element in the horizontal and/or vertical directions. Its result is a &lt;transform-function&gt; data type."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate3d",
+        "text": "translate3d()",
+        "summary": "The translate3d() CSS function repositions an element in 3D space. Its result is a &lt;transform-function&gt; data type."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateX",
+        "text": "translateX()",
+        "summary": "The translateX() CSS function repositions an element horizontally on the 2D plane. Its result is a &lt;transform-function&gt; data type."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateY",
+        "text": "translateY()",
+        "summary": "The translateY() CSS function repositions an element vertically on the 2D plane. Its result is a &lt;transform-function&gt; data type."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateZ",
+        "text": "translateZ()",
+        "summary": "The translateZ() CSS function repositions an element along the z-axis in 3D space, i.e., closer to or farther away from the viewer. Its result is a &lt;transform-function&gt; data type."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/angle#turn",
+        "text": "turn",
+        "summary": "The &lt;angle&gt; CSS data type represents an angle value expressed in degrees, gradians, radians, or turns. It is used, for example, in &lt;gradient&gt;s and in some transform functions."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-bidi",
+        "text": "unicode-bidi",
+        "summary": "The unicode-bidi CSS property, together with the direction property, determines how bidirectional text in a document is handled. For example, if a block of content contains both left-to-right and right-to-left text, the user-agent uses a complex Unicode algorithm to decide how to display the text. The unicode-bidi property overrides this algorithm and allows the developer to control the text embedding."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/unicode-range",
+        "text": "unicode-range (@font-face)",
+        "summary": "The unicode-range CSS descriptor sets the specific range of characters to be used from a font defined by @font-face and made available for use on the current page. If the page doesn't use any character in this range, the font is not downloaded; if it uses at least one, the whole font is downloaded."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/unset",
+        "text": "unset",
+        "summary": "The unset CSS keyword resets a property to its inherited value if it inherits from its parent, and to its initial value if not. In other words, it behaves like the inherit keyword in the first case, and like the initial keyword in the second case. It can be applied to any CSS property, including the CSS shorthand all."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/url",
+        "text": "&lt;url&gt;",
+        "summary": "The &lt;url&gt; CSS data type denotes a pointer to a resource, such as an image or a font. URLs can be used in numerous CSS properties, such as background-image, cursor, and list-style."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/url#The_url()_functional_notation",
+        "text": "url()",
+        "summary": "The &lt;url&gt; CSS data type denotes a pointer to a resource, such as an image or a font. URLs can be used in numerous CSS properties, such as background-image, cursor, and list-style."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@viewport/user-zoom",
+        "text": "user-zoom (@viewport)",
+        "summary": "The user-zoom CSS descriptor controls whether or not the user can change the zoom factor of a document defined by @viewport."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:valid",
+        "text": ":valid",
+        "summary": "The :valid CSS pseudo-class represents any &lt;input&gt; or other &lt;form&gt; element whose contents validate successfully. This allows to easily make valid fields adopt an appearance that helps the user confirm that their data is formatted properly."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/var",
+        "text": "var()",
+        "summary": "The var() CSS function can be used to insert the value of a custom property (sometimes called a \"CSS variable\") instead of any part of a value of another property."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align",
+        "text": "vertical-align",
+        "summary": "The vertical-align CSS property sets vertical alignment of an inline or table-cell box."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/length#vh",
+        "text": "vh",
+        "summary": "The &lt;length&gt; CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@viewport",
+        "text": "@viewport",
+        "summary": "The @viewport CSS at-rule lets you configure the viewport through which the document is viewed. It's primarily used for mobile devices, but is also used by desktop browsers that support features like \"snap to edge\" (such as Microsoft Edge)."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/visibility",
+        "text": "visibility",
+        "summary": "The visibility CSS property shows or hides an element without changing the layout of a document. The property can also hide rows or columns in a &lt;table&gt;."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:visited",
+        "text": ":visited",
+        "summary": "The :visited CSS pseudo-class represents links that the user has already visited. For privacy reasons, the styles that can be modified using this selector are very limited."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/length#vmax",
+        "text": "vmax",
+        "summary": "The &lt;length&gt; CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/length#vmin",
+        "text": "vmin",
+        "summary": "The &lt;length&gt; CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/length#vw",
+        "text": "vw",
+        "summary": "The &lt;length&gt; CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/white-space",
+        "text": "white-space",
+        "summary": "The white-space CSS property sets how white space inside an element is handled."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/widows",
+        "text": "widows",
+        "summary": "The widows CSS property sets the minimum number of lines in a block container that must be shown at the top of a page, region, or column."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/width",
+        "text": "width",
+        "summary": "The width CSS property sets an element's width. By default it sets the width of the content area, but if box-sizing is set to border-box, it sets the width of the border area."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@viewport/width",
+        "text": "width (@viewport)",
+        "summary": "The width CSS descriptor is shorthand for setting both the min-width and the max-width of the viewport. By providing one viewport length value, that value will determine both the min-width and the max-width to the value provided."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/will-change",
+        "text": "will-change",
+        "summary": "The will-change CSS property hints to browsers how an element is expected to change. Browsers may set up optimizations before an element is actually changed. These kinds of optimizations can increase the responsiveness of a page by doing potentially expensive work before they are actually required."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/word-break",
+        "text": "word-break",
+        "summary": "The word-break CSS property sets whether line breaks appear wherever the text would otherwise overflow its content box."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/word-spacing",
+        "text": "word-spacing",
+        "summary": "The word-spacing CSS property sets the length of space between words and between tags."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/word-wrap",
+        "text": "word-wrap",
+        "summary": "The overflow-wrap CSS property applies to inline elements, setting whether the browser should insert line breaks within an otherwise unbreakable string to prevent text from overflowing its line box."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode",
+        "text": "writing-mode",
+        "summary": "The writing-mode CSS property sets whether lines of text are laid out horizontally or vertically, as well as the direction in which blocks progress."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/resolution#x",
+        "text": "x",
+        "summary": "The &lt;resolution&gt; CSS data type, used for describing resolutions in media queries, denotes the pixel density of an output device, i.e., its resolution."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/z-index",
+        "text": "z-index",
+        "summary": "The z-index CSS property sets the z-order of a positioned element and its descendants or flex items. Overlapping elements with a larger z-index cover those with a smaller one."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@viewport/zoom",
+        "text": "zoom (@viewport)",
+        "summary": "The zoom CSS descriptor sets the initial zoom factor of a document defined by the @viewport at-rule."
+    },
+    {
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/--*",
+        "text": "--*",
+        "summary": "Property names that are prefixed with --, like --example-name, represent custom properties that contain a value that\u00a0can be used in other declarations using the var()\u00a0function."
+    }
+]
