@@ -15,8 +15,9 @@
 	    	</div>
             <div id="searchResults">
                 <ul>
-                    <li v-for="i in results">
-                        <a :href="i.link"> {{i.text}} </a>
+                    <li class="result" v-for="i in results">
+                        <div class="link"><a :href="i.link"> {{i.text}} </a></div>
+						<div class="summary">{{i.summary}}</div>
                     </li>
                 </ul>
             </div>

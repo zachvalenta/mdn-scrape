@@ -13,7 +13,7 @@ var app = new Vue({
             var query = this.query
 
             if(!query){
-                results.length = 0
+                results.length = 0;
                 return;
             }
 
@@ -21,7 +21,7 @@ var app = new Vue({
                 results.length = 0
                 for (var i = 0; i <= content.hits.length - 1 ; i++) {
                     hit = content.hits[i]
-                    result = {link: hit.link, text: hit.text}
+                    result = {link: hit.link, text: hit.text, summary: hit.summary}
                     results.push(result)
                 }
             });

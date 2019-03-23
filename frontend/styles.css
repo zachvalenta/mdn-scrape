@@ -31,3 +31,15 @@ h2 {
 	list-style: none;
 }
 
+.result {
+    outline: 5px solid black;
+    margin-bottom: 15px;
+}
+
+.link {
+    text-align: left;
+}
+
+.summary {
+    text-align: left;
+}
