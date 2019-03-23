@@ -16,7 +16,7 @@ def check_data_file_empty():
 
 
 def get_summary(link):
-    # TODO: r&d Scrapy pipelines for this
+    # TODO - refactor - either grequests or Scrapy pipelines
     res = requests.get(link)
     if res.status_code != 200:
         return ''
