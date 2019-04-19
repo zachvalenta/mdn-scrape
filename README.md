@@ -5,6 +5,8 @@ POC that uses:
 * __Scrapy__ 🕸🕷🕸 for a quick and dirty scrape of an MDN subdomain
 * __Algolia__ 🏎🔍🏎 for typeahead search
 
+![](screencap.png?raw=true)
+
 # how to run?
 
 short answer: `make help` 🙂
