@@ -22,7 +22,8 @@
                         <div class="link">
                             <a :href="i.link" class="btn">🔗</a> <span>{{i.text}}</span>
                         </div>
-						<div class="summary">{{i.summary}}</div>
+                        <div v-if="i.summary" class="summary">{{i.summary}}</div>
+                        <div v-else class="summary"><i class="material-icons red-text">error</i> no summary</div>
                     </li>
                 </ul>
             </div>
