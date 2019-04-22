@@ -17,8 +17,8 @@
 		    	<input v-model="query" placeholder="📙 the docs await..." @input="search">
 	    	</div>
             <div id="searchResults">
-                <ul>
-                    <li class="result" v-for="i in results">
+                <ul class="collection">
+                    <li class="collection-item" v-for="i in results">
                         <div class="link">
                             <a :href="i.link" class="btn">🔗</a> <span>{{i.text}}</span>
                         </div>
