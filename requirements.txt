@@ -5,7 +5,7 @@ attrs==19.1.0
 Automat==0.7.0
 beautifulsoup4==4.7.1
 better-exceptions-fork==0.2.1.post6
-certifi==2022.12.7
+certifi==2023.7.22
 cffi==1.12.2
 chardet==3.0.4
 colorama==0.4.1
