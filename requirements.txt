@@ -17,7 +17,7 @@ flake8==3.7.7
 hyperlink==18.0.0
 idna==2.8
 incremental==17.5.0
-loguru==0.2.5
+loguru==0.5.3
 lxml==4.9.1
 mccabe==0.6.1
 parsel==1.5.1
