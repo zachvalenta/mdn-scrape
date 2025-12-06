@@ -33,7 +33,7 @@ pyOpenSSL==19.0.0
 python-dotenv==0.10.1
 queuelib==1.5.0
 requests==2.32.4
-Scrapy==2.11.2
+Scrapy==2.13.4
 service-identity==18.1.0
 six==1.12.0
 soupsieve==1.8
